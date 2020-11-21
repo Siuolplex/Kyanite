@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kykinite:powered_quartz_ascension_kykinite",
+      "kykinite:powered_quartz_kykinite_helmet",
+      "kykinite:powered_quartz_kykinite_chestplate",
+      "kykinite:powered_quartz_kykinite_leggings",
+      "kykinite:powered_quartz_kykinite_boots"
+    ]
+  },
+  "criteria": {
+    "has_kykinite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kykinite:kykinite"
+          }
+        ]
+      }
+    },
+    "criteria": {
+      "has_quartz_ascended": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "kykinite:quartz_ascension_kykinite"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [ ["has_kykinite"], ["has_quartz_ascended"] ]
+}

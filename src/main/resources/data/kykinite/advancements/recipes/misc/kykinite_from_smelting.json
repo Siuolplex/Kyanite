@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kykinite:kykinite_from_smelting"
+    ]
+  },
+  "criteria": {
+    "has_kykinite_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kykinite:kykinite_ore"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kykinite:kykinite_from_smelting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_kykinite_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

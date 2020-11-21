@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kykinite:golden_ascension_kykinite",
+      "kykinite:golden_kykinite_helmet",
+      "kykinite:golden_kykinite_chestplate",
+      "kykinite:golden_kykinite_leggings",
+      "kykinite:golden_kykinite_boots"
+    ]
+  },
+  "criteria": {
+    "has_kykinite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kykinite:kykinite"
+          }
+        ]
+      }
+    },
+    "criteria": {
+      "has_gold": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:golden_ingot"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [ ["has_kykinite"], ["has_gold"] ]
+}

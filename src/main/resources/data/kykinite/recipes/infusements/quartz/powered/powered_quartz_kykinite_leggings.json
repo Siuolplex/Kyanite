@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "kykinite:quartz_kykinite_leggings"
+  },
+  "addition": {
+    "item": "kykinite:powered_quartz_ascension_kykinite"
+  },
+  "result": {
+    "item": "kykinite:powered_quartz_kykinite_leggings"
+  }
+}

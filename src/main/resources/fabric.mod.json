@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "kykinite",
+  "version": "1.0.0",
+
+  "name": "Kykinite",
+  "description": "Kykinite, a mod about Armor Augmentation by Siuol.",
+  "authors": [
+    "Siuol"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dev.siuolplex.ArmorAugmentation"
+    ]
+  },
+  "mixins": [
+    "kykinite.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "fabric-api": ""
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

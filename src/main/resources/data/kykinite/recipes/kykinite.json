@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kykinite:kykinite_block"
+    }
+  ],
+  "result": {
+    "item": "kykinite:kykinite",
+    "count": 9
+  }
+}

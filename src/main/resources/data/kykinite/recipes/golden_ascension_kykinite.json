@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "#X#",
+    "X#X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "X": {
+      "item": "kykinite:refined_kykinite"
+    }
+
+  },
+  "result": {
+    "item": "kykinite:golden_ascension_kykinite"
+  }
+}

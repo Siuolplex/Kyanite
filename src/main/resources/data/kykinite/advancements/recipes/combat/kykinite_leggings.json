@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kykinite:kykinite_leggings"
+    ]
+  },
+  "criteria": {
+    "has_kykinite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kykinite:kykinite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kykinite:kykinite_leggings"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_kykinite",
+      "has_the_recipe"
+    ]
+  ]
+}
