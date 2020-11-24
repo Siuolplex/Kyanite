@@ -1,0 +1,12 @@
+{
+"replace": false,
+  "values": [
+    "#kykinite:kykinite_blocks",
+    "#kykinite:kykinite_ores",
+    "#kykinite:base_kykinite",
+    "#kykinite:gold_kykinite",
+    "#kykinite:lapis_kykinite",
+    "#kykinite:quartz_kykinite",
+    "#kykinite:powered_quartz_kykinite"
+  ]
+}

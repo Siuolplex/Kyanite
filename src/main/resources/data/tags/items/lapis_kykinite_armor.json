@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "kykinite:lapis_kykinite_helmet",
+    "kykinite:lapis_kykinite_chestplate",
+    "kykinite:lapis_kykinite_leggings",
+    "kykinite:lapis_kykinite_boots"
+  ]
+}
