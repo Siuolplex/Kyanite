@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "kykinite:kykinite",
+    "kykinite:refined_kykinite",
+    "minecraft:netherite_ingot",
+    "minecraft:emerald",
+    "minecraft:diamond",
+    "minecraft:gold_ingot",
+    "minecraft:iron_ingot"
+  ]
+}
