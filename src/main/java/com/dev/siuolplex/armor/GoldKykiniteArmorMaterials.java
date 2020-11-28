@@ -6,7 +6,7 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
-public class GoldKykiniteArmorMaterials implements SiuolArmorMaterial{
+public class GoldKykiniteArmorMaterials implements BaseKykiniteArmorMaterial {
 
     private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};
     private static final int[] PROTECTION_VALUES = new int[]{2, 5, 6, 2};
@@ -43,27 +43,30 @@ public class GoldKykiniteArmorMaterials implements SiuolArmorMaterial{
 
     @Override
     public float getToughness() {
-        return 1.0F;
+        return 1;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 0.0F;
+        return 0;
     }
 
     @Override
     public float getMaxHealth() {
-        return 5.0f;
+        return 5;
     }
 
     @Override
     public float getAttackDamage() {
-        return 0.0F;
+        return 0;
     }
 
     @Override
     public float getMovementSpeed() {
-        return 0.0F;
+        return 0;
     }
-
-}
+    @Override
+    public float getAttackSpeed() {
+        return 0;
+    }
+    }

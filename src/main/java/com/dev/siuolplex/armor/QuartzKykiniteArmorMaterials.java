@@ -5,7 +5,7 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
-public class QuartzKykiniteArmorMaterials implements SiuolArmorMaterial{
+public class QuartzKykiniteArmorMaterials implements BaseKykiniteArmorMaterial {
 
     private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};
     private static final int[] PROTECTION_VALUES = new int[]{2, 5, 6, 2};
@@ -54,10 +54,14 @@ public class QuartzKykiniteArmorMaterials implements SiuolArmorMaterial{
     public float getMaxHealth(){return 0.0F;}
 
     @Override
-    public float getAttackDamage(){return 1.0F;}
+    public float getAttackDamage(){return 0.125F;}
 
     @Override
     public float getMovementSpeed(){return 0.0F;}
 
+    @Override
+    public float getAttackSpeed() {
+        return 0;
+    }
 }
 

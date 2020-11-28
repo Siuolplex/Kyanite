@@ -37,7 +37,7 @@ public class ArmorAugmentation implements ModInitializer {
 
 // God this is messy, I plan on putting these into separate classes. But until then lets deal with this.
 
-	@Override
+
 	public void onInitialize() {
 
 		Items.init();
