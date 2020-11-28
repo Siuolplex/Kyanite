@@ -2,7 +2,10 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kykinite:kykinite"
+      "kykinite:kykinite",
+      "kykinite:refined_kykinite",
+      "kykinite:kykinite_shard",
+      "kykinite:kykinite_from_shard"
     ]
   },
   "criteria": {
