@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "#X#",
+    "X#X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "X": {
+      "item": "kykinite:diamond_ascension_kykinite"
+    }
+
+  },
+  "result": {
+    "item": "kykinite:netherite_ascension_kykinite"
+  }
+}

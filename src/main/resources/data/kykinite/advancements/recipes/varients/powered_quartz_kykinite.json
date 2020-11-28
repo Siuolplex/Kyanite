@@ -3,10 +3,10 @@
   "rewards": {
     "recipes": [
       "kykinite:powered_quartz_ascension_kykinite",
-      "kykinite:powered_quartz_kykinite_helmet",
-      "kykinite:powered_quartz_kykinite_chestplate",
-      "kykinite:powered_quartz_kykinite_leggings",
-      "kykinite:powered_quartz_kykinite_boots"
+      "kykinite:infusements/quartz/redstone/powered_quartz_kykinite_helmet",
+      "kykinite:infusements/quartz/redstone/powered_quartz_kykinite_chestplate",
+      "kykinite:infusements/quartz/redstone/powered_quartz_kykinite_leggings",
+      "kykinite:infusements/quartz/redstone/powered_quartz_kykinite_boots"
     ]
   },
   "criteria": {

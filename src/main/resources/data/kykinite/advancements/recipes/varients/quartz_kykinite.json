@@ -3,10 +3,10 @@
   "rewards": {
     "recipes": [
       "kykinite:quartz_ascension_kykinite",
-      "kykinite:quartz_kykinite_helmet",
-      "kykinite:quartz_kykinite_chestplate",
-      "kykinite:quartz_kykinite_leggings",
-      "kykinite:quartz_kykinite_boots"
+      "kykinite:infusements/quartz/quartz_kykinite_helmet",
+      "kykinite:infusements/quartz/quartz_kykinite_chestplate",
+      "kykinite:infusements/quartz/quartz_kykinite_leggings",
+      "kykinite:infusements/quartz/quartz_kykinite_boots"
     ]
   },
   "criteria": {

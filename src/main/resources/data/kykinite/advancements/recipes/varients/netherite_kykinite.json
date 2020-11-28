@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kykinite:netherite_ascension_kykinite",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_helmet",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_chestplate",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_leggings",
+      "kykinite:infusements/diamond/netherite/netherite_golden_kykinite_boots"
+    ]
+  },
+  "criteria": {
+    "has_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kykinite:diamond_ascension_kykinite"
+          }
+        ]
+      }
+    },
+    "criteria": {
+      "has_netherite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:netherite_ingot"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [ ["has_diamond_kykinite"], ["has_netherite"] ]
+}
