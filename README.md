@@ -13,3 +13,5 @@ The mod is Fabric Exclusive, as you are looking at the github, Im assuming you a
 Feel free to put this in a modpack, credit is preferred but not required.
 
 If you have any suggestions or bugs, refer to the issue tracker.
+
+If you are wondering about if you can use part of the code for your own project, feel free! I dont think my code is of high quality but if your wondering "How do I do this?" you may reference my code. (Hopefully MIT License allows that.)
