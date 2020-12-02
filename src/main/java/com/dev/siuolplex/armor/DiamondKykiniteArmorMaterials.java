@@ -68,6 +68,6 @@ public class DiamondKykiniteArmorMaterials implements BaseKykiniteArmorMaterial 
 
     @Override
     public float getArmorPercentBoost(){
-        return 0.0F
+        return 0.0F;
     }
 }
