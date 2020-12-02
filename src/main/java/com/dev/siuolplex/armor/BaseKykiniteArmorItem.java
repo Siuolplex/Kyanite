@@ -35,7 +35,7 @@ public class BaseKykiniteArmorItem extends ArmorItem {
         this.maxHealth = material.getMaxHealth();
         this.attackDamage = material.getAttackDamage();
         this.movementSpeed = material.getMovementSpeed();
-        this.attackSpeed = material.getAttackSpeed();
+        this.armorPercentBoost = material.getArmorPercentBoost();
         ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
         UUID uUID = MODIFIERS[slot.getEntitySlotId()];
         builder.put(EntityAttributes.GENERIC_ARMOR, new EntityAttributeModifier(uUID, "Armor modifier", (double)this.protection, EntityAttributeModifier.Operation.ADDITION));
