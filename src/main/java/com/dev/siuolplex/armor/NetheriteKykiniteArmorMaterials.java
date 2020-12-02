@@ -65,8 +65,8 @@ public class NetheriteKykiniteArmorMaterials implements BaseKykiniteArmorMateria
         return 0;
     }
     @Override
-    public float getAttackSpeed() {
-        return 0;
+    public float getArmorPercentBoost(){
+        return 0.0F
     }
 
 }
