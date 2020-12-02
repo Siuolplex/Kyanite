@@ -28,7 +28,7 @@ public class IronKykiniteArmorMaterials implements BaseKykiniteArmorMaterial {
 
     @Override
     public SoundEvent getEquipSound() {
-        return SoundEvents.ITEM_ARMOR_EQUIP_IRON;
+        return Soun;dEvents.ITEM_ARMOR_EQUIP_IRON;
     }
 
     @Override
@@ -62,7 +62,7 @@ public class IronKykiniteArmorMaterials implements BaseKykiniteArmorMaterial {
 
     @Override
     public float getArmorPercentBoost(){
-        return 0.25F
+        return 0.25F;
     }
 }
 
