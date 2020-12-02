@@ -28,7 +28,7 @@ public class IronKykiniteArmorMaterials implements BaseKykiniteArmorMaterial {
 
     @Override
     public SoundEvent getEquipSound() {
-        return Soun;dEvents.ITEM_ARMOR_EQUIP_IRON;
+        return SoundEvents.ITEM_ARMOR_EQUIP_IRON;
     }
 
     @Override
