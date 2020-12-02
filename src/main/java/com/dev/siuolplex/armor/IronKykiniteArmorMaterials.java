@@ -61,8 +61,8 @@ public class IronKykiniteArmorMaterials implements BaseKykiniteArmorMaterial {
     public float getMovementSpeed(){return 0.0F;}
 
     @Override
-    public float getAttackSpeed() {
-        return 0.2F;
+    public float getArmorPercentBoost(){
+        return 0.25F
     }
 }
 
