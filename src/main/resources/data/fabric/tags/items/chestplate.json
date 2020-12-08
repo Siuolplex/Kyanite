@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "kykinite:kykinite_chestplate",
+    "kykinite:golden_kykinite_chestplate",
+    "kykinite:iron_kykinite_chestplate",
+    "kykinite:quartz_kykinite_chestplate",
+    "kykinite:powered_quartz_kykinite_chestplate",
+    "kykinite:diamond_kykinite_chestplate",
+    "kykinite:netherite_kykinite_chestplate"
+  ]
+}
