@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "kykinite:kykinite_boots",
+    "kykinite:golden_kykinite_boots",
+    "kykinite:iron_kykinite_boots",
+    "kykinite:quartz_kykinite_boots",
+    "kykinite:powered_quartz_kykinite_boots",
+    "kykinite:diamond_kykinite_boots",
+    "kykinite:netherite_kykinite_boots"
+  ]
+}
