@@ -60,8 +60,8 @@ public class QuartzKykiniteArmorMaterials implements BaseKykiniteArmorMaterial {
     public float getMovementSpeed(){return 0.0F;}
 
     @Override
-    public float getAttackSpeed() {
-        return 0;
+    public float getArmorPercentBoost(){
+        return 0.0F;
     }
 }
 
