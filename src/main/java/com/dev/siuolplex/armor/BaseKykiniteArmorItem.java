@@ -77,7 +77,7 @@ public class BaseKykiniteArmorItem extends ArmorItem {
     }
    
         public float getArmorPercentBoost(){
-    return this.armorPercentBoost;
+    return this.armorPercentBoost + 1.0F;
     }
 }
 
