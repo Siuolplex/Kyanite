@@ -21,8 +21,6 @@ public class BaseKykiniteArmorItem extends ArmorItem {
     private final float movementSpeed;
     private final float attackDamage;
 
-    private final float armorPercentBoost;
-
     public BaseKykiniteArmorMaterial type;
     public Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
 
@@ -35,7 +33,6 @@ public class BaseKykiniteArmorItem extends ArmorItem {
         this.maxHealth = material.getMaxHealth();
         this.attackDamage = material.getAttackDamage();
         this.movementSpeed = material.getMovementSpeed();
-        this.armorPercentBoost = material.getArmorPercentBoost();
         ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
         UUID uUID = MODIFIERS[slot.getEntitySlotId()];
         builder.put(EntityAttributes.GENERIC_ARMOR, new EntityAttributeModifier(uUID, "Armor modifier", (double)this.protection, EntityAttributeModifier.Operation.ADDITION));
@@ -44,8 +41,7 @@ public class BaseKykiniteArmorItem extends ArmorItem {
         builder.put(EntityAttributes.GENERIC_MAX_HEALTH, new EntityAttributeModifier(uUID, "Armor Health modifier", (double)this.maxHealth, EntityAttributeModifier.Operation.ADDITION));
         builder.put(EntityAttributes.GENERIC_ATTACK_DAMAGE, new EntityAttributeModifier(uUID, "Armor Attack modifier", (double)this.attackDamage, EntityAttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(EntityAttributes.GENERIC_MOVEMENT_SPEED, new EntityAttributeModifier(uUID, "Armor Movement Speed modifier", (double)this.movementSpeed, EntityAttributeModifier.Operation.ADDITION));
-        builder.put(EntityAttributes.GENERIC_ARMOR, new EntityAttributeModifier(uUID, "Armor Percentage modifier", (double)this.armorPercentBoost, EntityAttributeModifier.Operation.MULTIPLY_BASE));
-         this.attributeModifiers = builder.build();
+        this.attributeModifiers = builder.build();
 
     }
     public BaseKykiniteArmorMaterial getMaterial() {
