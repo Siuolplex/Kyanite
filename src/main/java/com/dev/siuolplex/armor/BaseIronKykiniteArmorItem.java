@@ -25,7 +25,7 @@ public class BaseIronKykiniteArmorItem extends BaseKykiniteArmorItem {
         this.armorPercentBoost = material.getArmorPercentBoost();
         ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
         UUID uUID = MODIFIERS[slot.getEntitySlotId()];
-        builder.put(EntityAttributes.GENERIC_ARMOR, new EntityAttributeModifier(uUID, "Armor Percentage modifier", (double)this.armorPercentBoost, EntityAttributeModifier.Operation.MULTIPLY));
+        builder.put(EntityAttributes.GENERIC_ARMOR, new EntityAttributeModifier(uUID, "Armor Percentage modifier", (double)this.armorPercentBoost, EntityAttributeModifier.Operation.MULTIPLY_BASE));
          this.attributeModifiers = builder.build();
 
     }
