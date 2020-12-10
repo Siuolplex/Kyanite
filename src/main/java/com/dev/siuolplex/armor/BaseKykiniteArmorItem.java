@@ -75,9 +75,6 @@ public class BaseKykiniteArmorItem extends ArmorItem {
     public float getKnockbackResistance(){
         return this.knockbackResistance;
     }
-   
-        public float getArmorPercentBoost(){
-    return this.armorPercentBoost + 1.0F;
-    }
+  
 }
 
