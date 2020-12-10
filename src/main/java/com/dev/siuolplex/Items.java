@@ -40,6 +40,7 @@ public class Items {
     public static final Item QUARTZ_ASCENSION_KYKINITE = register("quartz_ascension_kykinite", new Item(new Item.Settings().group(ArmorAugmentation.ARMORAUGMENT)));
     public static final Item DIAMOND_ASCENSION_KYKINITE = register("diamond_ascension_kykinite", new Item(new Item.Settings().group(ArmorAugmentation.ARMORAUGMENT)));
     public static final Item NETHERITE_ASCENSION_KYKINITE = register("netherite_ascension_kykinite", new Item(new Item.Settings().group(ArmorAugmentation.ARMORAUGMENT).fireproof()));
+    public static final Item IRON_ASCENSION_KYKINITE = register("iron_ascension_kykinite", new Item(new Item.Settings().group(ArmorAugmentation.ARMORAUGMENT)));
 
     // Base(d) Kykinite
     public static final Item KYKINITE_HELMET = register("kykinite_helmet", new ArmorItem(KykiniteArmorMaterials, EquipmentSlot.HEAD, new Item.Settings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.UNCOMMON)));
