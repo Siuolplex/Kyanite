@@ -72,10 +72,10 @@ public class Items {
     public static final Item NETHERITE_KYKINITE_LEGGINGS = register("netherite_kykinite_leggings", new BaseKykiniteArmorItem(NetheriteKykiniteArmorMaterials, EquipmentSlot.LEGS, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.EPIC).fireproof()));
     public static final Item NETHERITE_KYKINITE_BOOTS = register("netherite_kykinite_boots", new BaseKykiniteArmorItem(NetheriteKykiniteArmorMaterials, EquipmentSlot.FEET, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.EPIC).fireproof()));
     //Iron Kykinite
-    public static final Item IRON_KYKINITE_HELMET = register("iron_kykinite_helmet", new BaseKykiniteArmorItem(IronKykiniteArmorMaterials, EquipmentSlot.HEAD, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.EPIC)));
-    public static final Item IRON_KYKINITE_CHESTPLATE = register("iron_kykinite_chestplate", new BaseKykiniteArmorItem(IronKykiniteArmorMaterials, EquipmentSlot.CHEST, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.EPIC)));
-    public static final Item IRON_KYKINITE_LEGGINGS = register("iron_kykinite_leggings", new BaseKykiniteArmorItem(IronKykiniteArmorMaterials, EquipmentSlot.LEGS, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.EPIC)));
-    public static final Item IRON_KYKINITE_BOOTS = register("iron_kykinite_boots", new BaseKykiniteArmorItem(IronKykiniteArmorMaterials, EquipmentSlot.FEET, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.EPIC)));
+    public static final Item IRON_KYKINITE_HELMET = register("iron_kykinite_helmet", new BaseIronKykiniteArmorItem(IronKykiniteArmorMaterials, EquipmentSlot.HEAD, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.EPIC)));
+    public static final Item IRON_KYKINITE_CHESTPLATE = register("iron_kykinite_chestplate", new BaseIronKykiniteArmorItem(IronKykiniteArmorMaterials, EquipmentSlot.CHEST, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.EPIC)));
+    public static final Item IRON_KYKINITE_LEGGINGS = register("iron_kykinite_leggings", new BaseIronKykiniteArmorItem(IronKykiniteArmorMaterials, EquipmentSlot.LEGS, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.EPIC)));
+    public static final Item IRON_KYKINITE_BOOTS = register("iron_kykinite_boots", new BaseIronKykiniteArmorItem(IronKykiniteArmorMaterials, EquipmentSlot.FEET, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.EPIC)));
 
 
     private static Item register(String name, Item item) {
