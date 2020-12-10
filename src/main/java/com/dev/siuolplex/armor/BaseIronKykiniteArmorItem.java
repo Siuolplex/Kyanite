@@ -8,7 +8,7 @@ import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.item.ArmorItem;
-import com.dev.siuolplex.armor.BaseKykiniteArmorItem
+import com.dev.siuolplex.armor.BaseKykiniteArmorItem;
 
 import java.util.UUID;
 
