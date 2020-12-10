@@ -8,6 +8,4 @@ public interface BaseKykiniteArmorMaterial extends ArmorMaterial {
     float getAttackDamage();
 
     float getMovementSpeed();
-
-    float getArmorPercentBoost();
 }
