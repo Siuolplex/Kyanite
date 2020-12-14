@@ -5,9 +5,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ main ]
+    branches: [ Snapshots ]
   pull_request:
-    branches: [ main ]
+    branches: [ Snapshots ]
 
 jobs:
   build:
@@ -27,5 +27,5 @@ jobs:
     - name: Upload build artifacts
       uses: actions/upload-artifact@v1
       with:
-        name: kykinite-artifacts
+        name: snapshot-kykinite-artifacts
         path: build/libs
