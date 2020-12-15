@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "kykinite:kykinite_boots"
+    "item": "kykinite:kykinite_chestplate"
   },
   "addition": {
     "item": "kykinite:iron_ascension_kykinite"
   },
   "result": {
-    "item": "kykinite:iron_kykinite_boots"
+    "item": "kykinite:iron_kykinite_chestplate"
   }
 }

@@ -32,7 +32,7 @@ public class QuartzKykiniteArmorMaterials implements BaseKykiniteArmorMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.KYKINITE);
+        return Ingredient.ofItems(Items.QUARTZ_ASCENSION_KYKINITE);
     }
 
     @Override

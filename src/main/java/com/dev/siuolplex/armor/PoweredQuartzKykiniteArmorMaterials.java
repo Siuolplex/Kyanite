@@ -33,7 +33,7 @@ public class PoweredQuartzKykiniteArmorMaterials implements BaseKykiniteArmorMat
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.KYKINITE);
+        return Ingredient.ofItems(Items.POWERED_QUARTZ_ASCENSION_KYKINITE);
     }
 
     @Override

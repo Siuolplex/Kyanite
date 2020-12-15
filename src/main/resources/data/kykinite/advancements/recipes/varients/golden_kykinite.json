@@ -20,18 +20,16 @@
         ]
       }
     },
-    "criteria": {
       "has_gold": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
-              "item": "minecraft:golden_ingot"
+              "item": "minecraft:gold_ingot"
             }
           ]
         }
       }
-    }
-  },
+    },
   "requirements": [ ["has_kykinite"], ["has_gold"] ]
 }

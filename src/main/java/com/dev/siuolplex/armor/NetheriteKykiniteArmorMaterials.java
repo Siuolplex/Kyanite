@@ -32,7 +32,7 @@ public class NetheriteKykiniteArmorMaterials implements BaseKykiniteArmorMateria
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.KYKINITE);
+        return Ingredient.ofItems(Items.NETHERITE_ASCENSION_KYKINITE);
     }
 
     @Override

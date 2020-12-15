@@ -33,7 +33,7 @@ public class GoldKykiniteArmorMaterials implements BaseKykiniteArmorMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.KYKINITE);
+        return Ingredient.ofItems(Items.GOLDEN_ASCENSION_KYKINITE);
     }
 
     @Override

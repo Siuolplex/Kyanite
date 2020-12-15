@@ -20,7 +20,6 @@
         ]
       }
     },
-    "criteria": {
       "has_quartz_ascended": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
@@ -31,7 +30,6 @@
           ]
         }
       }
-    }
-  },
+    },
   "requirements": [ ["has_kykinite"], ["has_quartz_ascended"] ]
 }

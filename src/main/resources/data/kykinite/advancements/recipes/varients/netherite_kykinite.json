@@ -9,8 +9,8 @@
       "kykinite:infusements/diamond/netherite/netherite_golden_kykinite_boots"
     ]
   },
-  "criteria": {
-    "has_diamond": {
+  "criteria":{
+    "has_diamond_kykinite": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,7 +20,6 @@
         ]
       }
     },
-    "criteria": {
       "has_netherite": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
@@ -31,7 +30,6 @@
           ]
         }
       }
-    }
-  },
+    },
   "requirements": [ ["has_diamond_kykinite"], ["has_netherite"] ]
 }

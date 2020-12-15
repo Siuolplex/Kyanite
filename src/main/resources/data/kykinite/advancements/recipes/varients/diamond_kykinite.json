@@ -1,5 +1,35 @@
 {
   "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_kykinite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "kykinite:base_kykinite"
+          }
+        ]
+      }
+    },
+    "has_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_diamond"
+    ],
+    [
+      "has_kykinite"
+    ]
+  ],
   "rewards": {
     "recipes": [
       "kykinite:diamond_ascension_kykinite",
@@ -8,30 +38,5 @@
       "kykinite:infusements/diamond/diamond_kykinite_leggings",
       "kykinite:infusements/diamond/diamond_kykinite_boots"
     ]
-  },
-  "criteria": {
-    "has_kykinite": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "kykinite:kykinite"
-          }
-        ]
-      }
-    },
-    "criteria": {
-      "has_diamond": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "item": "minecraft:diamond"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "requirements": [ ["has_kykinite"], ["has_diamond"] ]
+  }
 }

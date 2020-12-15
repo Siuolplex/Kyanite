@@ -1,6 +1,5 @@
 plugins {
 	id 'fabric-loom' version '0.5-SNAPSHOT'
-	id 'maven-publish'
 }
 repositories {
 	jcenter()
@@ -13,9 +12,7 @@ repositories {
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
-archivesBaseName = project.archives_base_name
-version = project.mod_version
-group = project.maven_group
+version = project.mod_version + "+${project.minecraft_version}"
 
 dependencies {
 	// To change the versions see the gradle.properties file
@@ -66,27 +63,6 @@ java {
 
 jar {
 	from("LICENSE") {
-		rename { "${it}_${project.archivesBaseName}"}
-	}
-}
-
-// configure the maven publication
-publishing {
-	publications {
-		mavenJava(MavenPublication) {
-			// add all the jars that should be included when publishing to maven
-			artifact(remapJar) {
-				builtBy remapJar
-			}
-			artifact(sourcesJar) {
-				builtBy remapSourcesJar
-			}
-		}
-	}
-
-	// Select the repositories you want to publish to
-	// To publish to maven local, no extra repositories are necessary. Just use the task `publishToMavenLocal`.
-	repositories {
-		// See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
+		rename { "${it}_Kykinite"}
 	}
 }

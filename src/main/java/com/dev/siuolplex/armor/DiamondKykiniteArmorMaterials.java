@@ -32,7 +32,7 @@ public class DiamondKykiniteArmorMaterials implements BaseKykiniteArmorMaterial 
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.KYKINITE);
+        return Ingredient.ofItems(Items.DIAMOND_ASCENSION_KYKINITE);
     }
 
     @Override
