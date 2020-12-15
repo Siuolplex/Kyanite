@@ -5,9 +5,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ Snapshots ]
+    branches: [ 20w49a ]
   pull_request:
-    branches: [ Snapshots ]
+    branches: [ 20w49a ]
 
 jobs:
   build:
