@@ -25,6 +25,12 @@ public class LootTables {
     public static void init() {
 
         {
+             FabricLootPoolBuilder KYKINITE = FabricLootPoolBuilder.builder()
+                    .rolls(ConstantLootTableRange.create(1))
+                    .with(ItemEntry.builder(Items.KYKINITE))
+                    .withCondition(RandomChanceLootCondition.builder(0.25F).build());
+            insert(new LootTableInsert(REFINED_KYKINITE, new Identifier("minecraft", "chests/end_city_treasure")));
+            
             FabricLootPoolBuilder REFINED_KYKINITE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootTableRange.create(1))
                     .with(ItemEntry.builder(Items.REFINED_KYKINITE))
