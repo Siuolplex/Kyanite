@@ -1,4 +1,4 @@
-package com.dev.siuolplex.armor;
+package com.dev.siuolplex.items.armor.base;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;

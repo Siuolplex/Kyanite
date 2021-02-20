@@ -1,18 +1,20 @@
-package com.dev.siuolplex.armor;
+package com.dev.siuolplex.items.armor.materials;
 
-import com.dev.siuolplex.Items;
+import com.dev.siuolplex.items.Items;
+import com.dev.siuolplex.items.armor.base.BaseKykiniteArmorMaterial;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
-public class DiamondKykiniteArmorMaterials implements BaseKykiniteArmorMaterial {
-    private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};
-    private static final int[] PROTECTION_VALUES = new int[]{4, 7, 10, 4};
+public class PoweredQuartzKykiniteArmorMaterials implements BaseKykiniteArmorMaterial {
+
+    private static final int[] BASE_DURABILITY = new int[] {13, 15, 16, 11};
+    private static final int[] PROTECTION_VALUES = new int[] {3, 6, 8, 3};
 
     @Override
     public int getDurability(EquipmentSlot slot) {
-        return BASE_DURABILITY[slot.getEntitySlotId()] * 35;
+        return BASE_DURABILITY[slot.getEntitySlotId()] * 26;
     }
 
     @Override
@@ -22,7 +24,7 @@ public class DiamondKykiniteArmorMaterials implements BaseKykiniteArmorMaterial 
 
     @Override
     public int getEnchantability() {
-        return 14;
+        return 6;
     }
 
     @Override
@@ -32,36 +34,31 @@ public class DiamondKykiniteArmorMaterials implements BaseKykiniteArmorMaterial 
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.DIAMOND_ASCENSION_KYKINITE);
+        return Ingredient.ofItems(Items.POWERED_QUARTZ_ASCENSION_KYKINITE);
     }
 
     @Override
     public String getName() {
-        return "diamond_kykinite";
+        return "powered_quartz_kykinite";
     }
 
     @Override
     public float getToughness() {
-        return 3;
+        return 1.0F;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 0;
+        return 0.0F;
     }
 
     @Override
-    public float getMaxHealth() {
-        return 0;
-    }
+    public float getMaxHealth(){return 0.0F;}
 
     @Override
-    public float getAttackDamage() {
-        return 0;
-    }
+    public float getAttackDamage(){return 0.25F;}
 
     @Override
-    public float getMovementSpeed() {
-        return 0;
-    }
+    public float getMovementSpeed(){return 0.025F;}
+    
 }

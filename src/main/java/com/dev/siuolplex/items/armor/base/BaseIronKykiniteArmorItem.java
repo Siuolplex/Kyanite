@@ -1,5 +1,6 @@
-package com.dev.siuolplex.armor;
+package com.dev.siuolplex.items.armor.base;
 
+import com.dev.siuolplex.items.armor.materials.IronKykiniteArmorMaterials;
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -7,8 +8,6 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
-import net.minecraft.item.ArmorItem;
-import com.dev.siuolplex.armor.BaseKykiniteArmorItem;
 
 import java.util.UUID;
 
@@ -21,13 +20,14 @@ public class BaseIronKykiniteArmorItem extends BaseKykiniteArmorItem {
 
     public BaseIronKykiniteArmorMaterial type;
     public Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
+    private IronKykiniteArmorMaterials ironKykiniteArmorMaterials;
 
     public BaseIronKykiniteArmorItem(BaseIronKykiniteArmorMaterial material, EquipmentSlot slot, FabricItemSettings settings) {
         super(material, slot, settings);
-        this.type = material;
-        this.armorPercentBoost = material.getArmorPercentBoost();
-        this.protection = material.getProtectionAmount(slot);
-        this.toughness = material.getToughness();
+        this.type = ironKykiniteArmorMaterials;
+        this.armorPercentBoost = ironKykiniteArmorMaterials.getArmorPercentBoost();
+        this.protection = ironKykiniteArmorMaterials.getProtectionAmount(slot);
+        this.toughness = ironKykiniteArmorMaterials.getToughness();
         ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
         UUID uUID = MODIFIERS[slot.getEntitySlotId()];
         UUID uUIDEXTRA = ADDITIONALMODIFIERS[slot.getEntitySlotId()];
@@ -39,15 +39,10 @@ public class BaseIronKykiniteArmorItem extends BaseKykiniteArmorItem {
     }
 
     public BaseIronKykiniteArmorMaterial getMaterial() {
-        return this.type;
+        return ironKykiniteArmorMaterials;
     }
 
     public Multimap<EntityAttribute, EntityAttributeModifier> getAttributeModifiers(EquipmentSlot slot) {
         return slot == this.slot ? this.attributeModifiers : super.getAttributeModifiers(slot);
     }
-        public int getProtection() {return this.protection;}
-
-        public float method_26353() {return this.toughness;}
-
-
-    }
+}
