@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "kykinite:telaite",
     "kykinite:kykinite",
     "kykinite:refined_kykinite",
     "minecraft:netherite_ingot",

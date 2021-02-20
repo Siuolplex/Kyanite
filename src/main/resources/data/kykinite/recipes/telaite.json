@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kykinite:telaite_block"
+    }
+  ],
+  "result": {
+    "item": "kykinite:telaite",
+    "count": 9
+  }
+}

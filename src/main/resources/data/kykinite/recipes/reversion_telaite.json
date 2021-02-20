@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "kykinite:telaite"
+    }
+  },
+  "result": {
+    "item": "kykinite:reversion_telaite"
+  }
+}

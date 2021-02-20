@@ -94,11 +94,11 @@ public class Items {
     public static final Item GOLD_KYKINITE_CHESTPLATE = register("golden_kykinite_chestplate", new BaseKykiniteArmorItem(GoldKykiniteArmorMaterials, EquipmentSlot.CHEST, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.RARE)));
     public static final Item GOLD_KYKINITE_LEGGINGS = register("golden_kykinite_leggings", new BaseKykiniteArmorItem(GoldKykiniteArmorMaterials, EquipmentSlot.LEGS, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.RARE)));
     public static final Item GOLD_KYKINITE_BOOTS = register("golden_kykinite_boots", new BaseKykiniteArmorItem(GoldKykiniteArmorMaterials, EquipmentSlot.FEET, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.RARE)));
-    public static final Item GOLD_KYKINITE_SWORD = register("gold_kykinite_sword", new BaseKykiniteSwordItem(GoldKykiniteToolMaterial, 4, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.RARE)));
-    public static final Item GOLD_KYKINITE_AXE = register("gold_kykinite_axe", new BaseKykiniteAxeItem(GoldKykiniteToolMaterial, 7, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.RARE)));
-    public static final Item GOLD_KYKINITE_PICKAXE = register("gold_kykinite_pickaxe", new BaseKykinitePickaxeItem(GoldKykiniteToolMaterial, 3, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.RARE)));
-    public static final Item GOLD_KYKINITE_SHOVEL = register("gold_kykinite_shovel", new BaseKykiniteShovelItem(GoldKykiniteToolMaterial, 2.5f, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.RARE)));
-    public static final Item GOLD_KYKINITE_HOE = register("gold_kykinite_hoe", new BaseKykiniteHoeItem(GoldKykiniteToolMaterial, -2, 0f, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.RARE)));
+    public static final Item GOLD_KYKINITE_SWORD = register("golden_kykinite_sword", new BaseKykiniteSwordItem(GoldKykiniteToolMaterial, 4, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.RARE)));
+    public static final Item GOLD_KYKINITE_AXE = register("golden_kykinite_axe", new BaseKykiniteAxeItem(GoldKykiniteToolMaterial, 7, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.RARE)));
+    public static final Item GOLD_KYKINITE_PICKAXE = register("golden_kykinite_pickaxe", new BaseKykinitePickaxeItem(GoldKykiniteToolMaterial, 3, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.RARE)));
+    public static final Item GOLD_KYKINITE_SHOVEL = register("golden_kykinite_shovel", new BaseKykiniteShovelItem(GoldKykiniteToolMaterial, 2.5f, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.RARE)));
+    public static final Item GOLD_KYKINITE_HOE = register("golden_kykinite_hoe", new BaseKykiniteHoeItem(GoldKykiniteToolMaterial, -2, 0f, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.RARE)));
 
     //Diamond Kykinite
     public static final Item DIAMOND_KYKINITE_HELMET = register("diamond_kykinite_helmet", new BaseKykiniteArmorItem(DiamondKykiniteArmorMaterials, EquipmentSlot.HEAD, new FabricItemSettings().group(ArmorAugmentation.ARMORAUGMENT).rarity(Rarity.RARE)));

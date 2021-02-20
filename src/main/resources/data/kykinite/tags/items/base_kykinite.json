@@ -4,6 +4,8 @@
 		"#kykinite:base_kykinite_armor",
 		"kykinite:kykinite",
 		"kykinite:kykinite_shard",
-		"kykinite:refined_kykinite"
+		"kykinite:refined_kykinite",
+		"#kykinite:kykinite_ores",
+		"#kykinite:kykinite_blocks"
 	]
 }

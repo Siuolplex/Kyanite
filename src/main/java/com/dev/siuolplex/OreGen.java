@@ -21,7 +21,7 @@ public class OreGen {
             .configure(new OreFeatureConfig(
                     new BlockMatchRuleTest(Blocks.END_STONE),
                     com.dev.siuolplex.blocks.Blocks.KYKINITE_ORE.getDefaultState(),
-                    8))
+                    12))
             .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(
                     0,
                     0,
@@ -29,10 +29,29 @@ public class OreGen {
             .spreadHorizontally()
             .repeat(1);
 
-public static void init() {
+    private static final ConfiguredFeature<?, ?> TELAITEOREGEN = Feature.ORE
+            .configure(new OreFeatureConfig(
+                    new BlockMatchRuleTest(Blocks.END_STONE),
+                    com.dev.siuolplex.blocks.Blocks.TELAITE_ORE.getDefaultState(),
+                    2))
+            .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(
+                    0,
+                    0,
+                    64)))
+            .spreadHorizontally()
+            .repeat(1);
+
+
+    public static void init() {
     RegistryKey<ConfiguredFeature<?, ?>> kykiniteoregen = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN,
             new Identifier("kykinite", "kykiniteoregen"));
     Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, kykiniteoregen.getValue(), KYKINITEOREGEN);
     BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES, kykiniteoregen);
+
+    RegistryKey<ConfiguredFeature<?, ?>> telaiteoregen = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN,
+            new Identifier("kykinite", "telaiteoregen"));
+    Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, telaiteoregen.getValue(), TELAITEOREGEN);
+    BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES, telaiteoregen);
    }
+
 }
