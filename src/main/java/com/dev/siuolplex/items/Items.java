@@ -42,11 +42,11 @@ public class Items {
     public static final Item KYKINITE = register("kykinite", new Item(new Item.Settings().group(ArmorAugmentation.ARMORAUGMENT)));
     public static final Item REFINED_KYKINITE = register("refined_kykinite", new Item(new Item.Settings().group(ArmorAugmentation.ARMORAUGMENT)));
     public static final Item KYKINITE_SHARD = register("kykinite_shard", new Item(new Item.Settings().group(ArmorAugmentation.ARMORAUGMENT)));
-    public static final Item REVERSION_TELAITE = register("reversion_telaite", new Item(new Item.Settings()));
-    public static final Item TELAITE = register("telaite", new Item(new Item.Settings()));
-    public static final Item TELAITE_SHARD = register("telaite_shard", new Item(new Item.Settings()));
-    public static final Item TELAITE_ORE = register("telaite_ore", new BlockItem(Blocks.TELAITE_ORE, new Item.Settings()));
-    public static final Item TELAITE_BLOCK = register("telaite_block", new BlockItem(Blocks.TELAITE_BLOCK, new Item.Settings()));
+    public static final Item REVERSION_TELAITE = register("reversion_telaite", new Item(new Item.Settings().group(ArmorAugmentation.ARMORAUGMENT)));
+    public static final Item TELAITE = register("telaite", new Item(new Item.Settings().group(ArmorAugmentation.ARMORAUGMENT)));
+    public static final Item TELAITE_SHARD = register("telaite_shard", new Item(new Item.Settings().group(ArmorAugmentation.ARMORAUGMENT)));
+    public static final Item TELAITE_ORE = register("telaite_ore", new BlockItem(Blocks.TELAITE_ORE, new Item.Settings().group(ArmorAugmentation.ARMORAUGMENT)));
+    public static final Item TELAITE_BLOCK = register("telaite_block", new BlockItem(Blocks.TELAITE_BLOCK, new Item.Settings().group(ArmorAugmentation.ARMORAUGMENT)));
 
     // Ascension Items - These are the items used to upgrade your armor.
     public static final Item GOLDEN_ASCENSION_KYKINITE = register("golden_ascension_kykinite", new Item(new Item.Settings().group(ArmorAugmentation.ARMORAUGMENT)));
