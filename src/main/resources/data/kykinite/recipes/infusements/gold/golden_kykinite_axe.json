@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kykinite:kykinite_axe"
+    },
+    "addition": {
+        "item": "kykinite:golden_ascension_kykinite"
+    },
+    "result": {
+        "item": "kykinite:golden_kykinite_axe"
+    }
+}

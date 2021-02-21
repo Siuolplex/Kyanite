@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:smithing",
-  "base": {
-    "item": "kykinite:kykinite_helmet"
-  },
-  "addition": {
-    "item": "kykinite:quartz_ascension_kykinite"
-  },
-  "result": {
-    "item": "kykinite:quartz_kykinite_helmet"
-  }
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kykinite:kykinite_helmet"
+    },
+    "addition": {
+        "item": "kykinite:quartz_ascension_kykinite"
+    },
+    "result": {
+        "item": "kykinite:quartz_kykinite_helmet"
+    }
 }

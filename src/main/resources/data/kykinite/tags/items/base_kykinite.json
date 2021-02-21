@@ -2,6 +2,7 @@
 	"replace": false,
 	"values": [
 		"#kykinite:base_kykinite_armor",
+		"#kykinite:base_kykinite_tools",
 		"kykinite:kykinite",
 		"kykinite:kykinite_shard",
 		"kykinite:refined_kykinite",

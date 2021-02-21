@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "#kykinite:quartz_kykinite_tools",
     "#kykinite:quartz_kykinite_armor",
     "kykinite:quartz_ascension_kykinite"
   ]

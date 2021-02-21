@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kykinite:powered_quartz_kykinite_boots"
+    },
+    "addition": {
+        "item": "kykinite:reversion_telaite"
+    },
+    "result": {
+        "item": "kykinite:kykinite_boots"
+    }
+}

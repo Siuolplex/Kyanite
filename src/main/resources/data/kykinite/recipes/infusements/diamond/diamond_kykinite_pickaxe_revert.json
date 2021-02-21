@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kykinite:diamond_kykinite_pickaxe"
+    },
+    "addition": {
+        "item": "kykinite:reversion_telaite"
+    },
+    "result": {
+        "item": "kykinite:kykinite_pickaxe"
+    }
+}

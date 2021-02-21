@@ -4,13 +4,16 @@
   "version": "1.2.0",
 
   "name": "Kykinite",
-  "description": "Kykinite, a mod about Armor Augmentation by Siuol.",
+  "description": "Kykinite is a mod about augmenting a new ore found only in the end.",
   "authors": [
     "Siuol"
   ],
 
   "license": "MIT",
   "icon": "assets/icon.png",
+  "sources": "https://github.com/Siuolthepic/Kykinite",
+  "issues": "https://github.com/Siuolthepic/Kykinite/issues",
+  "homepage": "https://www.curseforge.com/minecraft/mc-mods/kykinite",
 
   "environment": "*",
   "entrypoints": {
@@ -18,6 +21,8 @@
       "com.dev.siuolplex.ArmorAugmentation"
     ]
   },
+
+
 
   "depends": {
     "fabricloader": ">=0.7.4",

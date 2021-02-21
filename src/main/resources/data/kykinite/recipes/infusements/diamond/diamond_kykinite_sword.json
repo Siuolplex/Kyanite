@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kykinite:kykinite_sword"
+    },
+    "addition": {
+        "item": "kykinite:diamond_ascension_kykinite"
+    },
+    "result": {
+        "item": "kykinite:diamond_kykinite_sword"
+    }
+}

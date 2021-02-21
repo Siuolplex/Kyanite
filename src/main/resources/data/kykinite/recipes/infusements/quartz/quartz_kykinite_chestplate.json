@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:smithing",
-  "base": {
-    "item": "kykinite:kykinite_chestplate"
-  },
-  "addition": {
-    "item": "kykinite:quartz_ascension_kykinite"
-  },
-  "result": {
-    "item": "kykinite:quartz_kykinite_chestplate"
-  }
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kykinite:kykinite_chestplate"
+    },
+    "addition": {
+        "item": "kykinite:quartz_ascension_kykinite"
+    },
+    "result": {
+        "item": "kykinite:quartz_kykinite_chestplate"
+    }
 }

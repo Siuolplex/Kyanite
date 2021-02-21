@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kykinite:golden_kykinite_shovel"
+    },
+    "addition": {
+        "item": "kykinite:reversion_telaite"
+    },
+    "result": {
+        "item": "kykinite:kykinite_shovel"
+    }
+}

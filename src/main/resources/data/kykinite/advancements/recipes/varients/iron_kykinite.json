@@ -6,7 +6,21 @@
       "kykinite:infusements/iron/iron_kykinite_helmet",
       "kykinite:infusements/iron/iron_kykinite_chestplate",
       "kykinite:infusements/iron/iron_kykinite_leggings",
-      "kykinite:infusements/iron/iron_kykinite_boots"
+      "kykinite:infusements/iron/iron_kykinite_boots",
+      "kykinite:infusements/iron/iron_kykinite_sword",
+      "kykinite:infusements/iron/iron_kykinite_axe",
+      "kykinite:infusements/iron/iron_kykinite_pickaxe",
+      "kykinite:infusements/iron/iron_kykinite_shovel",
+      "kykinite:infusements/iron/iron_kykinite_hoe",
+      "kykinite:infusements/iron/iron_kykinite_helmet_revert",
+      "kykinite:infusements/iron/iron_kykinite_chestplate_revert",
+      "kykinite:infusements/iron/iron_kykinite_leggings_revert",
+      "kykinite:infusements/iron/iron_kykinite_boots_revert",
+      "kykinite:infusements/iron/iron_kykinite_sword_revert",
+      "kykinite:infusements/iron/iron_kykinite_axe_revert",
+      "kykinite:infusements/iron/iron_kykinite_pickaxe_revert",
+      "kykinite:infusements/iron/iron_kykinite_shovel_revert",
+      "kykinite:infusements/iron/iron_kykinite_hoe_revert"
     ]
   },
   "criteria": {

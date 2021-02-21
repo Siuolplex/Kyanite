@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kykinite:item/powered_quartz_kykinite_sword"
+  }
+}

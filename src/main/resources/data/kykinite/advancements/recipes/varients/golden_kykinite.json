@@ -6,7 +6,21 @@
       "kykinite:infusements/gold/golden_kykinite_helmet",
       "kykinite:infusements/gold/golden_kykinite_chestplate",
       "kykinite:infusements/gold/golden_kykinite_leggings",
-      "kykinite:infusements/gold/golden_kykinite_boots"
+      "kykinite:infusements/gold/golden_kykinite_boots",
+      "kykinite:infusements/gold/golden_kykinite_sword",
+      "kykinite:infusements/gold/golden_kykinite_axe",
+      "kykinite:infusements/gold/golden_kykinite_pickaxe",
+      "kykinite:infusements/gold/golden_kykinite_shovel",
+      "kykinite:infusements/gold/golden_kykinite_hoe",
+      "kykinite:infusements/gold/golden_kykinite_helmet_revert",
+      "kykinite:infusements/gold/golden_kykinite_chestplate_revert",
+      "kykinite:infusements/gold/golden_kykinite_leggings_revert",
+      "kykinite:infusements/gold/golden_kykinite_boots_revert",
+      "kykinite:infusements/gold/golden_kykinite_sword_revert",
+      "kykinite:infusements/gold/golden_kykinite_axe_revert",
+      "kykinite:infusements/gold/golden_kykinite_pickaxe_revert",
+      "kykinite:infusements/gold/golden_kykinite_shovel_revert",
+      "kykinite:infusements/gold/golden_kykinite_hoe_revert"
     ]
   },
   "criteria": {

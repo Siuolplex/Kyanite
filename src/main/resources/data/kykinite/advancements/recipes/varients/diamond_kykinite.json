@@ -36,7 +36,21 @@
       "kykinite:infusements/diamond/diamond_kykinite_helmet",
       "kykinite:infusements/diamond/diamond_kykinite_chestplate",
       "kykinite:infusements/diamond/diamond_kykinite_leggings",
-      "kykinite:infusements/diamond/diamond_kykinite_boots"
+      "kykinite:infusements/diamond/diamond_kykinite_boots",
+      "kykinite:infusements/diamond/diamond_kykinite_sword",
+      "kykinite:infusements/diamond/diamond_kykinite_axe",
+      "kykinite:infusements/diamond/diamond_kykinite_pickaxe",
+      "kykinite:infusements/diamond/diamond_kykinite_shovel",
+      "kykinite:infusements/diamond/diamond_kykinite_hoe",
+      "kykinite:infusements/diamond/diamond_kykinite_helmet_revert",
+      "kykinite:infusements/diamond/diamond_kykinite_chestplate_revert",
+      "kykinite:infusements/diamond/diamond_kykinite_leggings_revert",
+      "kykinite:infusements/diamond/diamond_kykinite_boots_revert",
+      "kykinite:infusements/diamond/diamond_kykinite_sword_revert",
+      "kykinite:infusements/diamond/diamond_kykinite_axe_revert",
+      "kykinite:infusements/diamond/diamond_kykinite_pickaxe_revert",
+      "kykinite:infusements/diamond/diamond_kykinite_shovel_revert",
+      "kykinite:infusements/diamond/diamond_kykinite_hoe_revert"
     ]
   }
 }

@@ -6,7 +6,21 @@
       "kykinite:infusements/quartz/quartz_kykinite_helmet",
       "kykinite:infusements/quartz/quartz_kykinite_chestplate",
       "kykinite:infusements/quartz/quartz_kykinite_leggings",
-      "kykinite:infusements/quartz/quartz_kykinite_boots"
+      "kykinite:infusements/quartz/quartz_kykinite_boots",
+      "kykinite:infusements/quartz/quartz_kykinite_sword",
+      "kykinite:infusements/quartz/quartz_kykinite_axe",
+      "kykinite:infusements/quartz/quartz_kykinite_pickaxe",
+      "kykinite:infusements/quartz/quartz_kykinite_shovel",
+      "kykinite:infusements/quartz/quartz_kykinite_hoe",
+      "kykinite:infusements/quartz/quartz_kykinite_helmet_revert",
+      "kykinite:infusements/quartz/quartz_kykinite_chestplate_revert",
+      "kykinite:infusements/quartz/quartz_kykinite_leggings_revert",
+      "kykinite:infusements/quartz/quartz_kykinite_boots_revert",
+      "kykinite:infusements/quartz/quartz_kykinite_sword_revert",
+      "kykinite:infusements/quartz/quartz_kykinite_axe_revert",
+      "kykinite:infusements/quartz/quartz_kykinite_pickaxe_revert",
+      "kykinite:infusements/quartz/quartz_kykinite_shovel_revert",
+      "kykinite:infusements/quartz/quartz_kykinite_hoe_revert"
     ]
   },
   "criteria": {

@@ -6,7 +6,21 @@
       "kykinite:infusements/diamond/netherite/netherite_kykinite_helmet",
       "kykinite:infusements/diamond/netherite/netherite_kykinite_chestplate",
       "kykinite:infusements/diamond/netherite/netherite_kykinite_leggings",
-      "kykinite:infusements/diamond/netherite/netherite_golden_kykinite_boots"
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_boots",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_sword",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_axe",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_pickaxe",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_shovel",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_hoe",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_helmet_revert",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_chestplate_revert",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_leggings_revert",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_boots_revert",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_sword_revert",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_axe_revert",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_pickaxe_revert",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_shovel_revert",
+      "kykinite:infusements/diamond/netherite/netherite_kykinite_hoe_revert"
     ]
   },
   "criteria":{

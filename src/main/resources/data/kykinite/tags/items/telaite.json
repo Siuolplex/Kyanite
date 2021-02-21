@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "kykinite:telaite",
+    "kykinite:telaite_shard",
+    "kykinite:reversion_telaite",
+    "#ykinite:telaite_ore",
+    "kykinite:telaite_block"
+  ]
+}

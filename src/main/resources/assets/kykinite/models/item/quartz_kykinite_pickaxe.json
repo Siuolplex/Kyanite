@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kykinite:item/quartz_kykinite_pickaxe"
+  }
+}

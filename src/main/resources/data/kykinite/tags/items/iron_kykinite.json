@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "#kykinite:iron_kykinite_armor",
+    "#kykinite:iron_kykinite_tools",
     "kykinite:iron_ascension_kykinite"
   ]
 }
