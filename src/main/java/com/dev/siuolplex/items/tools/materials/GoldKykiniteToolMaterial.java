@@ -22,12 +22,12 @@ public class GoldKykiniteToolMaterial implements BaseKykiniteToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 10;
+        return 15;
     }
 
     @Override
     public float getAttackDamage() {
-        return 3.5f;
+        return 3f;
     }
 
     @Override
@@ -44,4 +44,15 @@ public class GoldKykiniteToolMaterial implements BaseKykiniteToolMaterial {
     public Ingredient getRepairIngredient() {
         return Ingredient.ofItems(Items.GOLDEN_ASCENSION_KYKINITE);
     }
+
+    @Override
+    public float getAttackBoost() {
+        return 0;
+    }
+
+    @Override
+    public float getMovementSpeed() {
+        return 0;
+    }
+
 }

@@ -6,4 +6,8 @@ public interface BaseKykiniteToolMaterial extends ToolMaterial {
     float getMaxHealth();
 
     float getArmor();
+
+    float getAttackBoost();
+
+    float getMovementSpeed();
 }

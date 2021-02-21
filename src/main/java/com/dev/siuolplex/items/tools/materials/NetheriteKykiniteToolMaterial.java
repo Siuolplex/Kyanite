@@ -7,7 +7,7 @@ import net.minecraft.recipe.Ingredient;
 public class NetheriteKykiniteToolMaterial implements BaseKykiniteToolMaterial {
     @Override
     public float getMaxHealth() {
-        return 4;
+        return 2;
     }
 
     @Override
@@ -16,8 +16,18 @@ public class NetheriteKykiniteToolMaterial implements BaseKykiniteToolMaterial {
     }
 
     @Override
+    public float getAttackBoost() {
+        return 0;
+    }
+
+    @Override
+    public float getMovementSpeed() {
+        return 0;
+    }
+
+    @Override
     public int getDurability() {
-        return 3000;
+        return 3056;
     }
 
     @Override
@@ -27,7 +37,7 @@ public class NetheriteKykiniteToolMaterial implements BaseKykiniteToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 7f;
+        return 6f;
     }
 
     @Override
@@ -37,7 +47,7 @@ public class NetheriteKykiniteToolMaterial implements BaseKykiniteToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 20;
+        return 21;
     }
 
     @Override

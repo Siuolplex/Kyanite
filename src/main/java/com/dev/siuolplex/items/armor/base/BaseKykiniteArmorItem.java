@@ -21,12 +21,12 @@ public class BaseKykiniteArmorItem extends ArmorItem {
     private final float movementSpeed;
     private final float attackDamage;
 
-    public BaseKykiniteArmorMaterial type;
+    public BaseKykiniteArmorMaterial material;
     public Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
 
     public BaseKykiniteArmorItem(BaseKykiniteArmorMaterial material, EquipmentSlot slot, FabricItemSettings settings) {
         super(material, slot, settings);
-        this.type = material;
+        this.material = material;
         this.protection = material.getProtectionAmount(slot);
         this.toughness = material.getToughness();
         this.knockbackResistance = material.getKnockbackResistance();
@@ -45,7 +45,7 @@ public class BaseKykiniteArmorItem extends ArmorItem {
 
     }
     public BaseKykiniteArmorMaterial getMaterial() {
-        return this.type;
+        return this.material;
     }
 
     public Multimap<EntityAttribute, EntityAttributeModifier> getAttributeModifiers(EquipmentSlot slot) {

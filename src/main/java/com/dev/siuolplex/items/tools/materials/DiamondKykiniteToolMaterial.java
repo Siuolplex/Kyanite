@@ -17,22 +17,22 @@ public class DiamondKykiniteToolMaterial implements BaseKykiniteToolMaterial {
 
     @Override
     public int getDurability() {
-        return 2000;
+        return 2111;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 9;
+        return 11;
     }
 
     @Override
     public float getAttackDamage() {
-        return 5f;
+        return 4f;
     }
 
     @Override
     public int getMiningLevel() {
-        return 4;
+        return 3;
     }
 
     @Override
@@ -44,4 +44,15 @@ public class DiamondKykiniteToolMaterial implements BaseKykiniteToolMaterial {
     public Ingredient getRepairIngredient() {
         return Ingredient.ofItems(Items.DIAMOND_ASCENSION_KYKINITE);
     }
+
+    @Override
+    public float getAttackBoost() {
+        return 0;
+    }
+
+    @Override
+    public float getMovementSpeed() {
+        return 0;
+    }
+
 }

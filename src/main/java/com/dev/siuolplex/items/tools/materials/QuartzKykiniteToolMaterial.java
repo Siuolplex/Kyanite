@@ -1,10 +1,10 @@
 package com.dev.siuolplex.items.tools.materials;
 
 import com.dev.siuolplex.items.Items;
-import com.dev.siuolplex.items.tools.base.BaseQuartzKykiniteToolMaterial;
+import com.dev.siuolplex.items.tools.base.BaseKykiniteToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class QuartzKykiniteToolMaterial implements BaseQuartzKykiniteToolMaterial {
+public class QuartzKykiniteToolMaterial implements BaseKykiniteToolMaterial {
     @Override
     public float getMaxHealth() {
         return 0;
@@ -37,7 +37,7 @@ public class QuartzKykiniteToolMaterial implements BaseQuartzKykiniteToolMateria
 
     @Override
     public float getAttackDamage() {
-        return 3.5f;
+        return 3f;
     }
 
     @Override

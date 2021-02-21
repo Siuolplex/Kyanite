@@ -20,14 +20,13 @@ public class BaseIronKykiniteArmorItem extends BaseKykiniteArmorItem {
 
     public BaseIronKykiniteArmorMaterial type;
     public Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
-    private IronKykiniteArmorMaterials ironKykiniteArmorMaterials;
 
     public BaseIronKykiniteArmorItem(BaseIronKykiniteArmorMaterial material, EquipmentSlot slot, FabricItemSettings settings) {
         super(material, slot, settings);
-        this.type = ironKykiniteArmorMaterials;
-        this.armorPercentBoost = ironKykiniteArmorMaterials.getArmorPercentBoost();
-        this.protection = ironKykiniteArmorMaterials.getProtectionAmount(slot);
-        this.toughness = ironKykiniteArmorMaterials.getToughness();
+        this.type = material;
+        this.armorPercentBoost = material.getArmorPercentBoost();
+        this.protection = material.getProtectionAmount(slot);
+        this.toughness = material.getToughness();
         ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
         UUID uUID = MODIFIERS[slot.getEntitySlotId()];
         UUID uUIDEXTRA = ADDITIONALMODIFIERS[slot.getEntitySlotId()];
@@ -39,7 +38,7 @@ public class BaseIronKykiniteArmorItem extends BaseKykiniteArmorItem {
     }
 
     public BaseIronKykiniteArmorMaterial getMaterial() {
-        return ironKykiniteArmorMaterials;
+        return type;
     }
 
     public Multimap<EntityAttribute, EntityAttributeModifier> getAttributeModifiers(EquipmentSlot slot) {

@@ -2,6 +2,8 @@ package com.dev.siuolplex;
 
 import com.dev.siuolplex.blocks.Blocks;
 import com.dev.siuolplex.items.Items;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;

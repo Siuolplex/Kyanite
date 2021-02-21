@@ -122,6 +122,13 @@ public class LootTables {
                     .withCondition(RandomChanceLootCondition.builder(0.05F).build());
             insert(new LootTableInsert(KYKINITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
+            FabricLootPoolBuilder KYKINITE_AXE = FabricLootPoolBuilder.builder()
+                    .rolls(ConstantLootTableRange.create(1))
+                    .with(ItemEntry.builder(Items.KYKINITE_AXE))
+                    .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootTableRange.between(20.0f, 39.0f)).allowTreasureEnchantments().build())
+                    .withCondition(RandomChanceLootCondition.builder(0.05F).build());
+            insert(new LootTableInsert(KYKINITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
+
             FabricLootPoolBuilder KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootTableRange.create(1))
                     .with(ItemEntry.builder(Items.KYKINITE_SHOVEL))
@@ -179,6 +186,13 @@ public class LootTables {
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootTableRange.between(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.01F).build());
             insert(new LootTableInsert(GOLD_KYKINITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
+
+            FabricLootPoolBuilder GOLD_KYKINITE_AXE = FabricLootPoolBuilder.builder()
+                    .rolls(ConstantLootTableRange.create(1))
+                    .with(ItemEntry.builder(Items.GOLD_KYKINITE_AXE))
+                    .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootTableRange.between(20.0f, 39.0f)).allowTreasureEnchantments().build())
+                    .withCondition(RandomChanceLootCondition.builder(0.01F).build());
+            insert(new LootTableInsert(GOLD_KYKINITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
             FabricLootPoolBuilder GOLD_KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootTableRange.create(1))
@@ -238,6 +252,13 @@ public class LootTables {
                     .withCondition(RandomChanceLootCondition.builder(0.01F).build());
             insert(new LootTableInsert(IRON_KYKINITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
+            FabricLootPoolBuilder IRON_KYKINITE_AXE = FabricLootPoolBuilder.builder()
+                    .rolls(ConstantLootTableRange.create(1))
+                    .with(ItemEntry.builder(Items.IRON_KYKINITE_AXE))
+                    .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootTableRange.between(20.0f, 39.0f)).allowTreasureEnchantments().build())
+                    .withCondition(RandomChanceLootCondition.builder(0.01F).build());
+            insert(new LootTableInsert(IRON_KYKINITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
+
             FabricLootPoolBuilder IRON_KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootTableRange.create(1))
                     .with(ItemEntry.builder(Items.IRON_KYKINITE_SHOVEL))
@@ -295,6 +316,13 @@ public class LootTables {
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootTableRange.between(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.01F).build());
             insert(new LootTableInsert(DIAMOND_KYKINITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
+
+            FabricLootPoolBuilder DIAMOND_KYKINITE_AXE = FabricLootPoolBuilder.builder()
+                    .rolls(ConstantLootTableRange.create(1))
+                    .with(ItemEntry.builder(Items.DIAMOND_KYKINITE_AXE))
+                    .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootTableRange.between(20.0f, 39.0f)).allowTreasureEnchantments().build())
+                    .withCondition(RandomChanceLootCondition.builder(0.01F).build());
+            insert(new LootTableInsert(DIAMOND_KYKINITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
             FabricLootPoolBuilder DIAMOND_KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootTableRange.create(1))
@@ -354,6 +382,13 @@ public class LootTables {
                     .withCondition(RandomChanceLootCondition.builder(0.01F).build());
             insert(new LootTableInsert(QUARTZ_KYKINITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
+            FabricLootPoolBuilder QUARTZ_KYKINITE_AXE = FabricLootPoolBuilder.builder()
+                    .rolls(ConstantLootTableRange.create(1))
+                    .with(ItemEntry.builder(Items.QUARTZ_KYKINITE_AXE))
+                    .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootTableRange.between(20.0f, 39.0f)).allowTreasureEnchantments().build())
+                    .withCondition(RandomChanceLootCondition.builder(0.01F).build());
+            insert(new LootTableInsert(QUARTZ_KYKINITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
+
             FabricLootPoolBuilder QUARTZ_KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootTableRange.create(1))
                     .with(ItemEntry.builder(Items.QUARTZ_KYKINITE_SHOVEL))
@@ -412,6 +447,13 @@ public class LootTables {
                     .withCondition(RandomChanceLootCondition.builder(0.003f).build());
             insert(new LootTableInsert(POWERED_QUARTZ_KYKINITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
+            FabricLootPoolBuilder POWERED_QUARTZ_KYKINITE_AXE = FabricLootPoolBuilder.builder()
+                    .rolls(ConstantLootTableRange.create(1))
+                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYKINITE_AXE))
+                    .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootTableRange.between(20.0f, 39.0f)).allowTreasureEnchantments().build())
+                    .withCondition(RandomChanceLootCondition.builder(0.003F).build());
+            insert(new LootTableInsert(POWERED_QUARTZ_KYKINITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
+
             FabricLootPoolBuilder POWERED_QUARTZ_KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootTableRange.create(1))
                     .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYKINITE_SHOVEL))
@@ -469,6 +511,13 @@ public class LootTables {
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootTableRange.between(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.0001F).build());
             insert(new LootTableInsert(NETHERITE_KYKINITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
+
+            FabricLootPoolBuilder NETHERITE_KYKINITE_AXE = FabricLootPoolBuilder.builder()
+                    .rolls(ConstantLootTableRange.create(1))
+                    .with(ItemEntry.builder(Items.NETHERITE_KYKINITE_AXE))
+                    .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootTableRange.between(20.0f, 39.0f)).allowTreasureEnchantments().build())
+                    .withCondition(RandomChanceLootCondition.builder(0.01F).build());
+            insert(new LootTableInsert(NETHERITE_KYKINITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
             FabricLootPoolBuilder NETHERITE_KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootTableRange.create(1))

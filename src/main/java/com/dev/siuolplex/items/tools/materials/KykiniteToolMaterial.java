@@ -33,7 +33,7 @@ public class KykiniteToolMaterial implements BaseKykiniteToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-            return Ingredient.ofItems(Items.KYKINITE);
+            return Ingredient.ofItems(Items.REFINED_KYKINITE);
         }
 
     @Override
@@ -43,6 +43,16 @@ public class KykiniteToolMaterial implements BaseKykiniteToolMaterial {
 
     @Override
     public float getArmor() {
+        return 0;
+    }
+
+    @Override
+    public float getAttackBoost() {
+        return 0;
+    }
+
+    @Override
+    public float getMovementSpeed() {
         return 0;
     }
 }

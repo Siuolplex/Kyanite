@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#kykinite:golden_kykinite_weapons",
+    "#kykinite:gold_kykinite_weapons",
     "kykinite:golden_kykinite_pickaxe",
     "kykinite:golden_kykinite_shovel",
     "kykinite:golden_kykinite_hoe"

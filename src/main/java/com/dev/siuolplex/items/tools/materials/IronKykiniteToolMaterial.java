@@ -12,12 +12,12 @@ public class IronKykiniteToolMaterial implements BaseKykiniteToolMaterial {
 
     @Override
     public float getArmor() {
-        return 0;
+        return 0.25f;
     }
 
     @Override
     public int getDurability() {
-        return 3000;
+        return 990;
     }
 
     @Override
@@ -27,12 +27,12 @@ public class IronKykiniteToolMaterial implements BaseKykiniteToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 3.5f;
+        return 3f;
     }
 
     @Override
     public int getMiningLevel() {
-        return 4;
+        return 3;
     }
 
     @Override
@@ -42,6 +42,17 @@ public class IronKykiniteToolMaterial implements BaseKykiniteToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.NETHERITE_ASCENSION_KYKINITE);
+        return Ingredient.ofItems(Items.IRON_ASCENSION_KYKINITE);
     }
+
+    @Override
+    public float getAttackBoost() {
+        return 0;
+    }
+
+    @Override
+    public float getMovementSpeed() {
+        return 0;
+    }
+
 }

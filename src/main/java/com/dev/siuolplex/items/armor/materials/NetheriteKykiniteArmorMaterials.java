@@ -53,12 +53,12 @@ public class NetheriteKykiniteArmorMaterials implements BaseKykiniteArmorMateria
 
     @Override
     public float getMaxHealth() {
-        return 4;
+        return 2;
     }
 
     @Override
     public float getAttackDamage() {
-        return 7;
+        return 0;
     }
 
     @Override

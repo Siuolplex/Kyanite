@@ -1,10 +1,10 @@
 package com.dev.siuolplex.items.tools.materials;
 
 import com.dev.siuolplex.items.Items;
-import com.dev.siuolplex.items.tools.base.BaseQuartzKykiniteToolMaterial;
+import com.dev.siuolplex.items.tools.base.BaseKykiniteToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class PoweredQuartzKykiniteToolMaterial implements BaseQuartzKykiniteToolMaterial {
+public class PoweredQuartzKykiniteToolMaterial implements BaseKykiniteToolMaterial {
     @Override
     public float getMaxHealth() {
         return 0;
@@ -42,7 +42,7 @@ public class PoweredQuartzKykiniteToolMaterial implements BaseQuartzKykiniteTool
 
     @Override
     public int getMiningLevel() {
-        return 4;
+        return 3;
     }
 
     @Override
