@@ -30,8 +30,8 @@ public class BaseKykiniteSwordItem extends SwordItem {
         this.armor = material.getArmor();
         this.movementSpeed = material.getMovementSpeed();
         this.attackBoost = material.getAttackBoost();        ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
-        builder.put(EntityAttributes.GENERIC_ATTACK_DAMAGE, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Sword Danage", (double)this.attackDamage, EntityAttributeModifier.Operation.ADDITION));
-        builder.put(EntityAttributes.GENERIC_ATTACK_SPEED, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Sword Speed", -2.4, EntityAttributeModifier.Operation.ADDITION));
+        builder.put(EntityAttributes.GENERIC_ATTACK_DAMAGE, new EntityAttributeModifier(ATTACK_DAMAGE_MODIFIER_ID, "Sword Damage", (double)this.attackDamage, EntityAttributeModifier.Operation.ADDITION));
+        builder.put(EntityAttributes.GENERIC_ATTACK_SPEED, new EntityAttributeModifier(ATTACK_SPEED_MODIFIER_ID, "Sword Speed", -2.4, EntityAttributeModifier.Operation.ADDITION));
         builder.put(EntityAttributes.GENERIC_MAX_HEALTH, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Sword Health modifier", (double)this.maxHealth, EntityAttributeModifier.Operation.ADDITION));
         builder.put(EntityAttributes.GENERIC_ARMOR, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Sword Armor modifier", (double)this.armor, EntityAttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(EntityAttributes.GENERIC_MOVEMENT_SPEED, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Sword Movement Speed modifier", (double)this.movementSpeed, EntityAttributeModifier.Operation.ADDITION));

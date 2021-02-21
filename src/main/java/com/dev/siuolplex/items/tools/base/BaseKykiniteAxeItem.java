@@ -29,12 +29,12 @@ public class BaseKykiniteAxeItem extends AxeItem {
         this.armor = material.getArmor();
         this.movementSpeed = material.getMovementSpeed();
         this.attackBoost = material.getAttackBoost();        ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
-        builder.put(EntityAttributes.GENERIC_ATTACK_DAMAGE, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Shovel Danage", (double)this.attackDamage, EntityAttributeModifier.Operation.ADDITION));
-        builder.put(EntityAttributes.GENERIC_ATTACK_SPEED, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Shovel Speed", -3, EntityAttributeModifier.Operation.ADDITION));
-        builder.put(EntityAttributes.GENERIC_MAX_HEALTH, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Shovel Health modifier", (double)this.maxHealth, EntityAttributeModifier.Operation.ADDITION));
-        builder.put(EntityAttributes.GENERIC_ARMOR, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Shovel Armor modifier", (double)this.armor, EntityAttributeModifier.Operation.MULTIPLY_BASE));
-        builder.put(EntityAttributes.GENERIC_MOVEMENT_SPEED, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Shovel Movement Speed modifier", (double)this.movementSpeed, EntityAttributeModifier.Operation.ADDITION));
-        builder.put(EntityAttributes.GENERIC_ATTACK_DAMAGE, new EntityAttributeModifier(UUID.fromString("0aa9aa23-9536-426b-b806-0a45446be8a0"), "Shovel Percentage Attack Boost modifier", (double)this.attackBoost, EntityAttributeModifier.Operation.MULTIPLY_BASE));
+        builder.put(EntityAttributes.GENERIC_ATTACK_DAMAGE, new EntityAttributeModifier(ATTACK_DAMAGE_MODIFIER_ID, "Axe Danage", (double)this.attackDamage, EntityAttributeModifier.Operation.ADDITION));
+        builder.put(EntityAttributes.GENERIC_ATTACK_SPEED, new EntityAttributeModifier(ATTACK_SPEED_MODIFIER_ID, "Axe Speed", -3, EntityAttributeModifier.Operation.ADDITION));
+        builder.put(EntityAttributes.GENERIC_MAX_HEALTH, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Axe Health modifier", (double)this.maxHealth, EntityAttributeModifier.Operation.ADDITION));
+        builder.put(EntityAttributes.GENERIC_ARMOR, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Axe Armor modifier", (double)this.armor, EntityAttributeModifier.Operation.MULTIPLY_BASE));
+        builder.put(EntityAttributes.GENERIC_MOVEMENT_SPEED, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Axe Movement Speed modifier", (double)this.movementSpeed, EntityAttributeModifier.Operation.ADDITION));
+        builder.put(EntityAttributes.GENERIC_ATTACK_DAMAGE, new EntityAttributeModifier(UUID.fromString("0aa9aa23-9536-426b-b806-0a45446be8a0"), "Axe Percentage Attack Boost modifier", (double)this.attackBoost, EntityAttributeModifier.Operation.MULTIPLY_BASE));
         this.attributeModifiers = builder.build();
 
     }

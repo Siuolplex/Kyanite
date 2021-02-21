@@ -27,8 +27,8 @@ public class BaseKykiniteHoeItem extends HoeItem {
         this.movementSpeed = material.getMovementSpeed();
         this.attackBoost = material.getAttackBoost();
         ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
-        builder.put(EntityAttributes.GENERIC_ATTACK_DAMAGE, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Hoe Damage", 1, EntityAttributeModifier.Operation.ADDITION));
-        builder.put(EntityAttributes.GENERIC_ATTACK_SPEED, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Hoe Speed", attackSpeed, EntityAttributeModifier.Operation.ADDITION));
+        builder.put(EntityAttributes.GENERIC_ATTACK_DAMAGE, new EntityAttributeModifier(ATTACK_DAMAGE_MODIFIER_ID, "Hoe Damage", 1, EntityAttributeModifier.Operation.ADDITION));
+        builder.put(EntityAttributes.GENERIC_ATTACK_SPEED, new EntityAttributeModifier(ATTACK_SPEED_MODIFIER_ID, "Hoe Speed", attackSpeed, EntityAttributeModifier.Operation.ADDITION));
         builder.put(EntityAttributes.GENERIC_MAX_HEALTH, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Hoe Health Modifier", (double) this.maxHealth, EntityAttributeModifier.Operation.ADDITION));
         builder.put(EntityAttributes.GENERIC_ARMOR, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Hoe Armor Modifier", (double) this.armor, EntityAttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(EntityAttributes.GENERIC_MOVEMENT_SPEED, new EntityAttributeModifier(UUID.fromString("743ce14d-2754-4d8c-9d17-a09a32f9536b"), "Hoe Movement Speed Modifier", (double) this.movementSpeed, EntityAttributeModifier.Operation.ADDITION));
