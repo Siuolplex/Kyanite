@@ -1,15 +1,15 @@
 {
   "item.kykinite.kykinite": "Kykinite",
+  "item.kykinite.refined_kykinite": "Refined Kykinite",
   "item.kykinite.kykinite_shard": "Kykinite Shard",
   "block.kykinite.kykinite_ore": "Kykinite Ore",
   "block.kykinite.kykinite_block": "Kykinite Block",
-  "item.kykinite.refined_kykinite": "Refined Kykinite",
 
   "item.kykinite.telaite": "Telaite",
   "item.kykinite.reversion_telaite": "Reversion Telaite",
-  "item.kykinite.telaite_ore": "Telaite Ore",
-  "item.kykinite.telaite_block": "Telaite Block",
   "item.kykinite.telaite_shard": "Telaite Shard",
+  "block.kykinite.telaite_ore": "Telaite Ore",
+  "block.kykinite.telaite_block": "Telaite Block",
 
   "item.kykinite.golden_ascension_kykinite": "Golden Ascension Kykinite",
   "item.kykinite.quartz_ascension_kykinite": "Quartz Ascension Kykinite",
