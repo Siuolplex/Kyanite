@@ -27,12 +27,12 @@ public class NetheriteKykiniteToolMaterial implements BaseKykiniteToolMaterial {
 
     @Override
     public int getDurability() {
-        return 3056;
+        return 3500;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 9;
+        return 13;
     }
 
     @Override

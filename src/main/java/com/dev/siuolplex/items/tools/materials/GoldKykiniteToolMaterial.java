@@ -17,7 +17,7 @@ public class GoldKykiniteToolMaterial implements BaseKykiniteToolMaterial {
 
     @Override
     public int getDurability() {
-        return 1000;
+        return 640;
     }
 
     @Override

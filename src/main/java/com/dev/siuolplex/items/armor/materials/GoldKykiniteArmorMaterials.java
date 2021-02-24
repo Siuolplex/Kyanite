@@ -14,7 +14,7 @@ public class GoldKykiniteArmorMaterials implements BaseKykiniteArmorMaterial {
 
     @Override
     public int getDurability(EquipmentSlot slot) {
-        return BASE_DURABILITY[slot.getEntitySlotId()] * 21;
+        return BASE_DURABILITY[slot.getEntitySlotId()] * 26;
     }
 
     @Override

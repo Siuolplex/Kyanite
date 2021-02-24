@@ -8,7 +8,7 @@ import net.minecraft.recipe.Ingredient;
 public class KykiniteToolMaterial implements BaseKykiniteToolMaterial {
     @Override
     public int getDurability() {
-        return 650;
+        return 450;
     }
 
     @Override

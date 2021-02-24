@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "kykinite",
-  "version": "1.2.0",
+  "version": "1.2.1",
 
   "name": "Kykinite",
   "description": "Kykinite is a mod about augmenting a new ore found only in the end.",
@@ -21,8 +21,6 @@
       "com.dev.siuolplex.ArmorAugmentation"
     ]
   },
-
-
 
   "depends": {
     "fabricloader": ">=0.7.4",

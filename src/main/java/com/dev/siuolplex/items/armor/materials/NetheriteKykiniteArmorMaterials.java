@@ -13,7 +13,7 @@ public class NetheriteKykiniteArmorMaterials implements BaseKykiniteArmorMateria
 
     @Override
     public int getDurability(EquipmentSlot slot) {
-        return BASE_DURABILITY[slot.getEntitySlotId()] * 40;
+        return BASE_DURABILITY[slot.getEntitySlotId()] * 45;
     }
 
     @Override
@@ -48,7 +48,7 @@ public class NetheriteKykiniteArmorMaterials implements BaseKykiniteArmorMateria
 
     @Override
     public float getKnockbackResistance() {
-        return (float) 1.0;
+        return 0.1f;
     }
 
     @Override

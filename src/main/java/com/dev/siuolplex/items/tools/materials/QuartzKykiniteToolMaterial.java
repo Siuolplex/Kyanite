@@ -32,7 +32,7 @@ public class QuartzKykiniteToolMaterial implements BaseKykiniteToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 9f;
+        return 8f;
     }
 
     @Override

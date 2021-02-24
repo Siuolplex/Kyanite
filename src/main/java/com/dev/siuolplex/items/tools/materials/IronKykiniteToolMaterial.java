@@ -17,7 +17,7 @@ public class IronKykiniteToolMaterial implements BaseKykiniteToolMaterial {
 
     @Override
     public int getDurability() {
-        return 990;
+        return 1000;
     }
 
     @Override
