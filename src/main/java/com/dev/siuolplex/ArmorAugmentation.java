@@ -11,14 +11,14 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class ArmorAugmentation implements ModInitializer {
-	public static final ItemGroup ARMORAUGMENT = FabricItemGroupBuilder.build(new Identifier("kykinite","augmentedarmor"), () -> new ItemStack(Items.REFINED_KYKINITE));
+	public static final ItemGroup ARMORAUGMENT = FabricItemGroupBuilder.build(new Identifier("kyanite","augmentedarmor"), () -> new ItemStack(Items.REFINED_KYANITE));
 
 	public void onInitialize() {
-		System.out.println("Kykinite - Starting Initialization");
+		System.out.println("Kyanite - Starting Initialization");
 		Items.init();
 		Blocks.init();
 		LootTables.init();
 		OreGen.init();
-		System.out.println("Kykinite - Finished Initialization");
+		System.out.println("Kyanite - Finished Initialization");
 	}
 }

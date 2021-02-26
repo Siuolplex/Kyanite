@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "#kykinite:iron_kykinite_armor",
-    "#kykinite:iron_kykinite_tools",
-    "kykinite:iron_ascension_kykinite"
+    "#kyanite:iron_kyanite_armor",
+    "#kyanite:iron_kyanite_tools",
+    "kyanite:iron_ascension_kyanite"
   ]
 }

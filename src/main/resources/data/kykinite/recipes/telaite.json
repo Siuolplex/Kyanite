@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "kykinite:telaite_block"
+      "item": "kyanite:telaite_block"
     }
   ],
   "result": {
-    "item": "kykinite:telaite",
+    "item": "kyanite:telaite",
     "count": 9
   }
 }

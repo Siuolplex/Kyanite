@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "kykinite:kykinite_block"
+      "item": "kyanite:kyanite_block"
     },
-    "title": {"translate": "advancements.kykinite.end.kykiniteget.title"},
-    "description": {"translate": "advancements.kykinite.end.kykiniteget.description"},
+    "title": {"translate": "advancements.kyanite.end.kyaniteget.title"},
+    "description": {"translate": "advancements.kyanite.end.kyaniteget.description"},
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -16,7 +16,7 @@
       "conditions": {
         "items": [
           {
-            "item": "kykinite:kykinite"
+            "item": "kyanite:kyanite"
           }
         ]
       }

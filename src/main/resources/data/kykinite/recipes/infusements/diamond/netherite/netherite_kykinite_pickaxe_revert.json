@@ -1,12 +1,12 @@
 {
     "type": "minecraft:smithing",
     "base": {
-        "item": "kykinite:netherite_kykinite_pickaxe"
+        "item": "kyanite:netherite_kyanite_pickaxe"
     },
     "addition": {
-        "item": "kykinite:reversion_telaite"
+        "item": "kyanite:reversion_telaite"
     },
     "result": {
-        "item": "kykinite:kykinite_pickaxe"
+        "item": "kyanite:kyanite_pickaxe"
     }
 }

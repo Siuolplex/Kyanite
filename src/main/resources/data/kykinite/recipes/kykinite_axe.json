@@ -10,10 +10,10 @@
       "item": "minecraft:stick"
     },
     "Y": {
-      "item": "kykinite:kykinite"
+      "item": "kyanite:kyanite"
     }
   },
   "result": {
-    "item": "kykinite:kykinite_axe"
+    "item": "kyanite:kyanite_axe"
   }
 }

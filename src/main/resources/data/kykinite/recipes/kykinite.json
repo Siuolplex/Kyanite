@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "kykinite:kykinite_block"
+      "item": "kyanite:kyanite_block"
     }
   ],
   "result": {
-    "item": "kykinite:kykinite",
+    "item": "kyanite:kyanite",
     "count": 9
   }
 }

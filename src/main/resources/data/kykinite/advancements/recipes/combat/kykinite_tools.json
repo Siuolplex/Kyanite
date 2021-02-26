@@ -2,20 +2,20 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kykinite:kykinite_sword",
-      "kykinite:kykinite_axe",
-      "kykinite:kykinite_pickaxe",
-      "kykinite:kykinite_shovel",
-      "kykinite:kykinite_hoe"
+      "kyanite:kyanite_sword",
+      "kyanite:kyanite_axe",
+      "kyanite:kyanite_pickaxe",
+      "kyanite:kyanite_shovel",
+      "kyanite:kyanite_hoe"
     ]
   },
   "criteria": {
-    "has_kykinite": {
+    "has_kyanite": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "kykinite:kykinite"
+            "item": "kyanite:kyanite"
           }
         ]
       }
@@ -23,37 +23,37 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kykinite:kykinite_sword"
+        "recipe": "kyanite:kyanite_sword"
       }
     },
     "has_the_recipe_b": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kykinite:kykinite_axe"
+        "recipe": "kyanite:kyanite_axe"
       }
     },
     "has_the_recipe_c": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kykinite:kykinite_pickaxe"
+        "recipe": "kyanite:kyanite_pickaxe"
       }
     },
     "has_the_recipe_d": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kykinite:kykinite_shovel"
+        "recipe": "kyanite:kyanite_shovel"
       }
     },
     "has_the_recipe_e": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kykinite:kykinite_hoe"
+        "recipe": "kyanite:kyanite_hoe"
       }
     }
   },
   "requirements": [
     [
-      "has_kykinite",
+      "has_kyanite",
       "has_the_recipe",
       "has_the_recipe_b",
       "has_the_recipe_c",

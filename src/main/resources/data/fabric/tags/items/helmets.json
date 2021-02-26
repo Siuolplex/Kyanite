@@ -1,12 +1,12 @@
 {	
   "replace": false,	
   "values": [	
-    "kykinite:kykinite_helmet",	
-    "kykinite:golden_kykinite_helmet",	
-    "kykinite:iron_kykinite_helmet",	
-    "kykinite:quartz_kykinite_helmet",	
-    "kykinite:powered_quartz_kykinite_helmet",	
-    "kykinite:diamond_kykinite_helmet",	
-    "kykinite:netherite_kykinite_helmet"	
+    "kyanite:kyanite_helmet",
+    "kyanite:golden_kyanite_helmet",
+    "kyanite:iron_kyanite_helmet",
+    "kyanite:quartz_kyanite_helmet",
+    "kyanite:powered_quartz_kyanite_helmet",
+    "kyanite:diamond_kyanite_helmet",
+    "kyanite:netherite_kyanite_helmet"
   ]	
 }

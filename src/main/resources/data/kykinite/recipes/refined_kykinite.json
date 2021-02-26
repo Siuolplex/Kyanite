@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "kykinite:kykinite"
+      "item": "kyanite:kyanite"
     }
   },
   "result": {
-    "item": "kykinite:refined_kykinite"
+    "item": "kyanite:refined_kyanite"
   }
 }

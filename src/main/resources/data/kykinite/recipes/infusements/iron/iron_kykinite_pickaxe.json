@@ -1,12 +1,12 @@
 {
     "type": "minecraft:smithing",
     "base": {
-        "item": "kykinite:kykinite_pickaxe"
+        "item": "kyanite:kyanite_pickaxe"
     },
     "addition": {
-        "item": "kykinite:iron_ascension_kykinite"
+        "item": "kyanite:iron_ascension_kyanite"
     },
     "result": {
-        "item": "kykinite:iron_kykinite_pickaxe"
+        "item": "kyanite:iron_kyanite_pickaxe"
     }
 }

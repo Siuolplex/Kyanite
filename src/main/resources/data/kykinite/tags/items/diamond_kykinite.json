@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "#kykinite:diamond_kykinite_tools",
-    "#kykinite:diamond_kykinite_armor",
-    "kykinite:diamond_ascension_kykinite"
+    "#kyanite:diamond_kyanite_tools",
+    "#kyanite:diamond_kyanite_armor",
+    "kyanite:diamond_ascension_kyanite"
   ]
 }

@@ -1,12 +1,12 @@
 {
     "type": "minecraft:smithing",
     "base": {
-        "item": "kykinite:kykinite_shovel"
+        "item": "kyanite:kyanite_shovel"
     },
     "addition": {
-        "item": "kykinite:iron_ascension_kykinite"
+        "item": "kyanite:iron_ascension_kyanite"
     },
     "result": {
-        "item": "kykinite:iron_kykinite_shovel"
+        "item": "kyanite:iron_kyanite_shovel"
     }
 }

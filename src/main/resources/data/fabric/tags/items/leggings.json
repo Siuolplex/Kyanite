@@ -1,12 +1,12 @@
 {	
   "replace": false,	
   "values": [	
-    "kykinite:kykinite_leggings",	
-    "kykinite:golden_kykinite_leggings",	
-    "kykinite:iron_kykinite_leggings",	
-    "kykinite:quartz_kykinite_leggings",	
-    "kykinite:powered_quartz_kykinite_leggings",	
-    "kykinite:diamond_kykinite_leggings",	
-    "kykinite:netherite_kykinite_leggings"	
+    "kyanite:kyanite_leggings",
+    "kyanite:golden_kyanite_leggings",
+    "kyanite:iron_kyanite_leggings",
+    "kyanite:quartz_kyanite_leggings",
+    "kyanite:powered_quartz_kyanite_leggings",
+    "kyanite:diamond_kyanite_leggings",
+    "kyanite:netherite_kyanite_leggings"
   ]	
 }

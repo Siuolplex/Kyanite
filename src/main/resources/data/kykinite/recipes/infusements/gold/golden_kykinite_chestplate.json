@@ -1,12 +1,12 @@
 {
     "type": "minecraft:smithing",
     "base": {
-        "item": "kykinite:kykinite_chestplate"
+        "item": "kyanite:kyanite_chestplate"
     },
     "addition": {
-        "item": "kykinite:golden_ascension_kykinite"
+        "item": "kyanite:golden_ascension_kyanite"
     },
     "result": {
-        "item": "kykinite:golden_kykinite_chestplate"
+        "item": "kyanite:golden_kyanite_chestplate"
     }
 }

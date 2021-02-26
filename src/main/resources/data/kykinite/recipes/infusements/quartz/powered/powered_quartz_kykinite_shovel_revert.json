@@ -1,12 +1,12 @@
 {
     "type": "minecraft:smithing",
     "base": {
-        "item": "kykinite:powered_quartz_kykinite_shovel"
+        "item": "kyanite:powered_quartz_kyanite_shovel"
     },
     "addition": {
-        "item": "kykinite:reversion_telaite"
+        "item": "kyanite:reversion_telaite"
     },
     "result": {
-        "item": "kykinite:kykinite_shovel"
+        "item": "kyanite:kyanite_shovel"
     }
 }

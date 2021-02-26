@@ -1,12 +1,12 @@
 {
 	"replace": false,
 	"values": [
-		"#kykinite:base_kykinite_armor",
-		"#kykinite:base_kykinite_tools",
-		"kykinite:kykinite",
-		"kykinite:kykinite_shard",
-		"kykinite:refined_kykinite",
-		"#kykinite:kykinite_ores",
-		"#kykinite:kykinite_blocks"
+		"#kyanite:base_kyanite_armor",
+		"#kyanite:base_kyanite_tools",
+		"kyanite:kyanite",
+		"kyanite:kyanite_shard",
+		"kyanite:refined_kyanite",
+		"#kyanite:kyanite_ores",
+		"#kyanite:kyanite_blocks"
 	]
 }

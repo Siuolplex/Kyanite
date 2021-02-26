@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kykinite:kykinite_helmet"
+      "kyanite:kyanite_helmet"
     ]
   },
   "criteria": {
-    "has_kykinite": {
+    "has_kyanite": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "kykinite:kykinite"
+            "item": "kyanite:kyanite"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kykinite:kykinite_helmet"
+        "recipe": "kyanite:kyanite_helmet"
       }
     }
   },
   "requirements": [
     [
-      "has_kykinite",
+      "has_kyanite",
       "has_the_recipe"
     ]
   ]

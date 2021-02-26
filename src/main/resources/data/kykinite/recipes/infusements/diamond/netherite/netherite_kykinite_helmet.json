@@ -1,12 +1,12 @@
 {
     "type": "minecraft:smithing",
     "base": {
-        "item": "kykinite:diamond_kykinite_helmet"
+        "item": "kyanite:diamond_kyanite_helmet"
     },
     "addition": {
-        "item": "kykinite:netherite_ascension_kykinite"
+        "item": "kyanite:netherite_ascension_kyanite"
     },
     "result": {
-        "item": "kykinite:netherite_kykinite_helmet"
+        "item": "kyanite:netherite_kyanite_helmet"
     }
 }

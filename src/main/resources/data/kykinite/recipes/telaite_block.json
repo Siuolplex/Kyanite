@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "kykinite:telaite"
+      "item": "kyanite:telaite"
     }
   },
   "result": {
-    "item": "kykinite:telaite_block"
+    "item": "kyanite:telaite_block"
   }
 }

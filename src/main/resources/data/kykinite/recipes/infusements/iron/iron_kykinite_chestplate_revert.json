@@ -1,12 +1,12 @@
 {
     "type": "minecraft:smithing",
     "base": {
-        "item": "kykinite:iron_kykinite_chestplate"
+        "item": "kyanite:iron_kyanite_chestplate"
     },
     "addition": {
-        "item": "kykinite:reversion_telaite"
+        "item": "kyanite:reversion_telaite"
     },
     "result": {
-        "item": "kykinite:kykinite_chestplate"
+        "item": "kyanite:kyanite_chestplate"
     }
 }

@@ -10,11 +10,11 @@
       "item": "minecraft:quartz"
     },
     "X": {
-      "item": "kykinite:refined_kykinite"
+      "item": "kyanite:refined_kyanite"
     }
 
   },
   "result": {
-    "item": "kykinite:quartz_ascension_kykinite"
+    "item": "kyanite:quartz_ascension_kyanite"
   }
 }

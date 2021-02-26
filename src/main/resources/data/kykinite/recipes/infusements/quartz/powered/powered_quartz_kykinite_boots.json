@@ -1,12 +1,12 @@
 {
     "type": "minecraft:smithing",
     "base": {
-        "item": "kykinite:quartz_kykinite_boots"
+        "item": "kyanite:quartz_kyanite_boots"
     },
     "addition": {
-        "item": "kykinite:powered_quartz_ascension_kykinite"
+        "item": "kyanite:powered_quartz_ascension_kyanite"
     },
     "result": {
-        "item": "kykinite:powered_quartz_kykinite_boots"
+        "item": "kyanite:powered_quartz_kyanite_boots"
     }
 }

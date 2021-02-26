@@ -1,12 +1,12 @@
 {
     "type": "minecraft:smithing",
     "base": {
-        "item": "kykinite:golden_kykinite_helmet"
+        "item": "kyanite:golden_kyanite_helmet"
     },
     "addition": {
-        "item": "kykinite:reversion_telaite"
+        "item": "kyanite:reversion_telaite"
     },
     "result": {
-        "item": "kykinite:kykinite_helmet"
+        "item": "kyanite:kyanite_helmet"
     }
 }

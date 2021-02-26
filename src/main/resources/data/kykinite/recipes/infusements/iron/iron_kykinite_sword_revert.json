@@ -1,12 +1,12 @@
 {
     "type": "minecraft:smithing",
     "base": {
-        "item": "kykinite:iron_kykinite_sword"
+        "item": "kyanite:iron_kyanite_sword"
     },
     "addition": {
-        "item": "kykinite:reversion_telaite"
+        "item": "kyanite:reversion_telaite"
     },
     "result": {
-        "item": "kykinite:kykinite_sword"
+        "item": "kyanite:kyanite_sword"
     }
 }

@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "kykinite:kykinite_shovel",
-    "kykinite:golden_kykinite_shovel",
-    "kykinite:iron_kykinite_shovel",
-    "kykinite:quartz_kykinite_shovel",
-    "kykinite:powered_quartz_kykinite_shovel",
-    "kykinite:diamond_kykinite_shovel",
-    "kykinite:netherite_kykinite_shovel"
+    "kyanite:kyanite_shovel",
+    "kyanite:golden_kyanite_shovel",
+    "kyanite:iron_kyanite_shovel",
+    "kyanite:quartz_kyanite_shovel",
+    "kyanite:powered_quartz_kyanite_shovel",
+    "kyanite:diamond_kyanite_shovel",
+    "kyanite:netherite_kyanite_shovel"
   ]
 }

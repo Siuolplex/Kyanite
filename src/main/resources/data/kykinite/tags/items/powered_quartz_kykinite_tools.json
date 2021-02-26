@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#kykinite:powered_quartz_kykinite_weapons",
-    "kykinite:powered_quartz_kykinite_pickaxe",
-    "kykinite:powered_quartz_kykinite_shovel",
-    "kykinite:powered_quartz_kykinite_hoe"
+    "#kyanite:powered_quartz_kyanite_weapons",
+    "kyanite:powered_quartz_kyanite_pickaxe",
+    "kyanite:powered_quartz_kyanite_shovel",
+    "kyanite:powered_quartz_kyanite_hoe"
   ]
 }

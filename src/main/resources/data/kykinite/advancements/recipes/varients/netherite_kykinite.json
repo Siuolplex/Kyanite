@@ -2,34 +2,34 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kykinite:netherite_ascension_kykinite",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_helmet",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_chestplate",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_leggings",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_boots",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_sword",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_axe",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_pickaxe",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_shovel",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_hoe",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_helmet_revert",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_chestplate_revert",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_leggings_revert",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_boots_revert",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_sword_revert",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_axe_revert",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_pickaxe_revert",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_shovel_revert",
-      "kykinite:infusements/diamond/netherite/netherite_kykinite_hoe_revert"
+      "kyanite:netherite_ascension_kyanite",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_helmet",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_chestplate",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_leggings",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_boots",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_sword",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_axe",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_pickaxe",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_shovel",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_hoe",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_helmet_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_chestplate_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_leggings_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_boots_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_sword_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_axe_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_pickaxe_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_shovel_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_hoe_revert"
     ]
   },
   "criteria":{
-    "has_diamond_kykinite": {
+    "has_diamond_kyanite": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "kykinite:diamond_ascension_kykinite"
+            "item": "kyanite:diamond_ascension_kyanite"
           }
         ]
       }
@@ -45,5 +45,5 @@
         }
       }
     },
-  "requirements": [ ["has_diamond_kykinite"], ["has_netherite"] ]
+  "requirements": [ ["has_diamond_kyanite"], ["has_netherite"] ]
 }

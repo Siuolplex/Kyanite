@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "kykinite:telaite_ore"
+              "name": "kyanite:telaite_ore"
             },
             {
               "type": "minecraft:item",
@@ -38,7 +38,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "kykinite:telaite"
+              "name": "kyanite:telaite"
             }
           ]
         }

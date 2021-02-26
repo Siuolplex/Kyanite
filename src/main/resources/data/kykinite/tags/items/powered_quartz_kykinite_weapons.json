@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "kykinite:powered_quartz_kykinite_sword",
-    "kykinite:powered_quartz_kykinite_axe"
+    "kyanite:powered_quartz_kyanite_sword",
+    "kyanite:powered_quartz_kyanite_axe"
   ]
 }

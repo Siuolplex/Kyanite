@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "kykinite:telaite"
+      "item": "kyanite:telaite"
     },
     "X": {
       "item": "minecraft:blaze_powder"
     }
   },
   "result": {
-    "item": "kykinite:reversion_telaite"
+    "item": "kyanite:reversion_telaite"
   }
 }

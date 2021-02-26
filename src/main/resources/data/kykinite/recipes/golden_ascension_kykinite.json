@@ -10,11 +10,11 @@
       "item": "minecraft:gold_ingot"
     },
     "X": {
-      "item": "kykinite:refined_kykinite"
+      "item": "kyanite:refined_kyanite"
     }
 
   },
   "result": {
-    "item": "kykinite:golden_ascension_kykinite"
+    "item": "kyanite:golden_ascension_kyanite"
   }
 }

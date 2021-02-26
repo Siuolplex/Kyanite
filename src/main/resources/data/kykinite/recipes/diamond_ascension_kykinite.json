@@ -10,11 +10,11 @@
       "item": "minecraft:diamond"
     },
     "X": {
-      "item": "kykinite:refined_kykinite"
+      "item": "kyanite:refined_kyanite"
     }
 
   },
   "result": {
-    "item": "kykinite:diamond_ascension_kykinite"
+    "item": "kyanite:diamond_ascension_kyanite"
   }
 }

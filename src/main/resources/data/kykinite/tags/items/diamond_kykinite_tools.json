@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#kykinite:diamond_kykinite_weapons",
-    "kykinite:diamond_kykinite_pickaxe",
-    "kykinite:diamond_kykinite_shovel",
-    "kykinite:diamond_kykinite_hoe"
+    "#kyanite:diamond_kyanite_weapons",
+    "kyanite:diamond_kyanite_pickaxe",
+    "kyanite:diamond_kyanite_shovel",
+    "kyanite:diamond_kyanite_hoe"
   ]
 }

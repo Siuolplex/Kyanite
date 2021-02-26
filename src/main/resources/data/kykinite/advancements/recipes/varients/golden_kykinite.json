@@ -2,34 +2,34 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kykinite:golden_ascension_kykinite",
-      "kykinite:infusements/gold/golden_kykinite_helmet",
-      "kykinite:infusements/gold/golden_kykinite_chestplate",
-      "kykinite:infusements/gold/golden_kykinite_leggings",
-      "kykinite:infusements/gold/golden_kykinite_boots",
-      "kykinite:infusements/gold/golden_kykinite_sword",
-      "kykinite:infusements/gold/golden_kykinite_axe",
-      "kykinite:infusements/gold/golden_kykinite_pickaxe",
-      "kykinite:infusements/gold/golden_kykinite_shovel",
-      "kykinite:infusements/gold/golden_kykinite_hoe",
-      "kykinite:infusements/gold/golden_kykinite_helmet_revert",
-      "kykinite:infusements/gold/golden_kykinite_chestplate_revert",
-      "kykinite:infusements/gold/golden_kykinite_leggings_revert",
-      "kykinite:infusements/gold/golden_kykinite_boots_revert",
-      "kykinite:infusements/gold/golden_kykinite_sword_revert",
-      "kykinite:infusements/gold/golden_kykinite_axe_revert",
-      "kykinite:infusements/gold/golden_kykinite_pickaxe_revert",
-      "kykinite:infusements/gold/golden_kykinite_shovel_revert",
-      "kykinite:infusements/gold/golden_kykinite_hoe_revert"
+      "kyanite:golden_ascension_kyanite",
+      "kyanite:infusements/gold/golden_kyanite_helmet",
+      "kyanite:infusements/gold/golden_kyanite_chestplate",
+      "kyanite:infusements/gold/golden_kyanite_leggings",
+      "kyanite:infusements/gold/golden_kyanite_boots",
+      "kyanite:infusements/gold/golden_kyanite_sword",
+      "kyanite:infusements/gold/golden_kyanite_axe",
+      "kyanite:infusements/gold/golden_kyanite_pickaxe",
+      "kyanite:infusements/gold/golden_kyanite_shovel",
+      "kyanite:infusements/gold/golden_kyanite_hoe",
+      "kyanite:infusements/gold/golden_kyanite_helmet_revert",
+      "kyanite:infusements/gold/golden_kyanite_chestplate_revert",
+      "kyanite:infusements/gold/golden_kyanite_leggings_revert",
+      "kyanite:infusements/gold/golden_kyanite_boots_revert",
+      "kyanite:infusements/gold/golden_kyanite_sword_revert",
+      "kyanite:infusements/gold/golden_kyanite_axe_revert",
+      "kyanite:infusements/gold/golden_kyanite_pickaxe_revert",
+      "kyanite:infusements/gold/golden_kyanite_shovel_revert",
+      "kyanite:infusements/gold/golden_kyanite_hoe_revert"
     ]
   },
   "criteria": {
-    "has_kykinite": {
+    "has_kyanite": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "kykinite:kykinite"
+            "item": "kyanite:kyanite"
           }
         ]
       }
@@ -45,5 +45,5 @@
         }
       }
     },
-  "requirements": [ ["has_kykinite"], ["has_gold"] ]
+  "requirements": [ ["has_kyanite"], ["has_gold"] ]
 }

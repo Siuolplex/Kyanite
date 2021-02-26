@@ -10,13 +10,13 @@
       "item": "minecraft:redstone"
     },
     "X": {
-      "item": "kykinite:refined_kykinite"
+      "item": "kyanite:refined_kyanite"
     },
     "Y": {
-      "item": "kykinite:quartz_ascension_kykinite"
+      "item": "kyanite:quartz_ascension_kyanite"
     }
   },
   "result": {
-    "item": "kykinite:powered_quartz_ascension_kykinite"
+    "item": "kyanite:powered_quartz_ascension_kyanite"
   }
 }

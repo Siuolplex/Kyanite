@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "kykinite:kykinite_shard"
+      "item": "kyanite:kyanite_shard"
     }
   },
   "result": {
-    "item": "kykinite:kykinite"
+    "item": "kyanite:kyanite"
   }
 }

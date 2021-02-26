@@ -17,10 +17,10 @@ import net.minecraft.world.gen.feature.OreFeatureConfig;
 
 
 public class OreGen {
-    private static final ConfiguredFeature<?, ?> KYKINITEOREGEN = Feature.ORE
+    private static final ConfiguredFeature<?, ?> KYANITEOREGEN = Feature.ORE
             .configure(new OreFeatureConfig(
                     new BlockMatchRuleTest(Blocks.END_STONE),
-                    com.dev.siuolplex.blocks.Blocks.KYKINITE_ORE.getDefaultState(),
+                    com.dev.siuolplex.blocks.Blocks.KYANITE_ORE.getDefaultState(),
                     12))
             .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(
                     0,
@@ -43,13 +43,13 @@ public class OreGen {
 
 
     public static void init() {
-    RegistryKey<ConfiguredFeature<?, ?>> kykiniteoregen = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN,
-            new Identifier("kykinite", "kykiniteoregen"));
-    Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, kykiniteoregen.getValue(), KYKINITEOREGEN);
-    BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES, kykiniteoregen);
+    RegistryKey<ConfiguredFeature<?, ?>> kyaniteoregen = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN,
+            new Identifier("kyanite", "kyaniteoregen"));
+    Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, kyaniteoregen.getValue(), KYANITEOREGEN);
+    BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES, kyaniteoregen);
 
     RegistryKey<ConfiguredFeature<?, ?>> telaiteoregen = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN,
-            new Identifier("kykinite", "telaiteoregen"));
+            new Identifier("kyanite", "telaiteoregen"));
     Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, telaiteoregen.getValue(), TELAITEOREGEN);
     BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES, telaiteoregen);
    }

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kykinite:telaite_block"
+          "name": "kyanite:telaite_block"
         }
       ],
       "conditions": [

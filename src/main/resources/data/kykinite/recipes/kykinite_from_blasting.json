@@ -1,9 +1,9 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "kykinite:kykinite_ore"
+    "item": "kyanite:kyanite_ore"
   },
-  "result": "kykinite:kykinite",
+  "result": "kyanite:kyanite",
   "experience": 1.0,
   "cookingtime": 100
 }
