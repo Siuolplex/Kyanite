@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kyanite:powered_quartz_kyanite_axe"
+    },
+    "addition": {
+        "item": "kyanite:reversion_telaite"
+    },
+    "result": {
+        "item": "kyanite:kyanite_axe"
+    }
+}

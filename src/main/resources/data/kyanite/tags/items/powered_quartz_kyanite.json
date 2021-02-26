@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#kyanite:powered_quartz_kyanite_tools",
+    "#kyanite:powered_quartz_kyanite_armor",
+    "kyanite:powered_quartz_ascension_kyanite"
+  ]
+}

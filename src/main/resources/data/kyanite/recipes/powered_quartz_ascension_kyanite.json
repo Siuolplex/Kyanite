@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "#Y#",
+    "X#X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone"
+    },
+    "X": {
+      "item": "kyanite:refined_kyanite"
+    },
+    "Y": {
+      "item": "kyanite:quartz_ascension_kyanite"
+    }
+  },
+  "result": {
+    "item": "kyanite:powered_quartz_ascension_kyanite"
+  }
+}

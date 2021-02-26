@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "kykinite:kykinite_block",
-    "kykinite:telaite_block",
+    "kyanite:kyanite_block",
+    "kyanite:telaite_block",
     "minecraft:gold_block",
     "minecraft:diamond_block",
     "minecraft:iron_block",

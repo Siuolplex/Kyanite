@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#kyanite:gold_kyanite_weapons",
+    "kyanite:golden_kyanite_pickaxe",
+    "kyanite:golden_kyanite_shovel",
+    "kyanite:golden_kyanite_hoe"
+  ]
+}

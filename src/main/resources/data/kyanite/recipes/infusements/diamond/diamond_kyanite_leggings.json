@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kyanite:kyanite_leggings"
+    },
+    "addition": {
+        "item": "kyanite:diamond_ascension_kyanite"
+    },
+    "result": {
+        "item": "kyanite:diamond_kyanite_leggings"
+    }
+}

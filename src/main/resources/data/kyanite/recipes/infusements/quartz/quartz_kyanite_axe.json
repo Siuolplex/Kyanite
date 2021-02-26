@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kyanite:kyanite_axe"
+    },
+    "addition": {
+        "item": "kyanite:quartz_ascension_kyanite"
+    },
+    "result": {
+        "item": "kyanite:quartz_kyanite_axe"
+    }
+}

@@ -23,571 +23,571 @@ public class LootTables {
     public static void init() {
 
         {
-            // Basic Kykinite and Ascension Kykinite
+            // Basic Kyanite and Ascension Kyanite
             FabricLootPoolBuilder TELAITE = FabricLootPoolBuilder.builder()
                     .rolls(UniformLootNumberProvider.create(1f,5f))
                     .with(ItemEntry.builder(Items.TELAITE))
                     .withCondition(RandomChanceLootCondition.builder(0.1F).build());
             insert(new LootTableInsert(TELAITE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-             FabricLootPoolBuilder KYKINITE = FabricLootPoolBuilder.builder()
+             FabricLootPoolBuilder KYANITE = FabricLootPoolBuilder.builder()
                      .rolls(UniformLootNumberProvider.create(1f,5f))
-                    .with(ItemEntry.builder(Items.KYKINITE))
+                    .with(ItemEntry.builder(Items.KYANITE))
                     .withCondition(RandomChanceLootCondition.builder(0.1F).build());
-            insert(new LootTableInsert(KYKINITE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(KYANITE, new Identifier("minecraft", "chests/end_city_treasure")));
             
-            FabricLootPoolBuilder REFINED_KYKINITE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder REFINED_KYANITE = FabricLootPoolBuilder.builder()
                     .rolls(UniformLootNumberProvider.create(1f,2f))
-                    .with(ItemEntry.builder(Items.REFINED_KYKINITE))
+                    .with(ItemEntry.builder(Items.REFINED_KYANITE))
                     .withCondition(RandomChanceLootCondition.builder(0.1F).build());
-            insert(new LootTableInsert(REFINED_KYKINITE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(REFINED_KYANITE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder GOLDEN_ASCENSION_KYKINITE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder GOLDEN_ASCENSION_KYANITE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.GOLDEN_ASCENSION_KYKINITE))
+                    .with(ItemEntry.builder(Items.GOLDEN_ASCENSION_KYANITE))
                     .withCondition(RandomChanceLootCondition.builder(0.03F).build());
-            insert(new LootTableInsert(GOLDEN_ASCENSION_KYKINITE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(GOLDEN_ASCENSION_KYANITE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder IRON_ASCENSION_KYKINITE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder IRON_ASCENSION_KYANITE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.IRON_ASCENSION_KYKINITE))
+                    .with(ItemEntry.builder(Items.IRON_ASCENSION_KYANITE))
                     .withCondition(RandomChanceLootCondition.builder(0.03F).build());
-            insert(new LootTableInsert(IRON_ASCENSION_KYKINITE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(IRON_ASCENSION_KYANITE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder DIAMOND_ASCENSION_KYKINITE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder DIAMOND_ASCENSION_KYANITE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.DIAMOND_ASCENSION_KYKINITE))
+                    .with(ItemEntry.builder(Items.DIAMOND_ASCENSION_KYANITE))
                     .withCondition(RandomChanceLootCondition.builder(0.03F).build());
-            insert(new LootTableInsert(DIAMOND_ASCENSION_KYKINITE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(DIAMOND_ASCENSION_KYANITE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder QUARTZ_ASCENSION_KYKINITE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder QUARTZ_ASCENSION_KYANITE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.QUARTZ_ASCENSION_KYKINITE))
+                    .with(ItemEntry.builder(Items.QUARTZ_ASCENSION_KYANITE))
                     .withCondition(RandomChanceLootCondition.builder(0.03F).build());
-            insert(new LootTableInsert(QUARTZ_ASCENSION_KYKINITE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(QUARTZ_ASCENSION_KYANITE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder POWERED_QUARTZ_ASCENSION_KYKINITE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder POWERED_QUARTZ_ASCENSION_KYANITE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_ASCENSION_KYKINITE))
+                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_ASCENSION_KYANITE))
                     .withCondition(RandomChanceLootCondition.builder(0.007F).build());
-            insert(new LootTableInsert(POWERED_QUARTZ_ASCENSION_KYKINITE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(POWERED_QUARTZ_ASCENSION_KYANITE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder NETHERITE_ASCENSION_KYKINITE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder NETHERITE_ASCENSION_KYANITE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.NETHERITE_ASCENSION_KYKINITE))
+                    .with(ItemEntry.builder(Items.NETHERITE_ASCENSION_KYANITE))
                     .withCondition(RandomChanceLootCondition.builder(0.002F).build());
-            insert(new LootTableInsert(NETHERITE_ASCENSION_KYKINITE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(NETHERITE_ASCENSION_KYANITE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            // Kykinite Armor and Tools
+            // Kyanite Armor and Tools
 
-            FabricLootPoolBuilder KYKINITE_HELMET = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder KYANITE_HELMET = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_HELMET))
+                    .with(ItemEntry.builder(Items.KYANITE_HELMET))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.02F).build());
-            insert(new LootTableInsert(KYKINITE_HELMET, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(KYANITE_HELMET, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder KYKINITE_CHESTPLATE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder KYANITE_CHESTPLATE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_CHESTPLATE))
+                    .with(ItemEntry.builder(Items.KYANITE_CHESTPLATE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.02F).build());
-            insert(new LootTableInsert(KYKINITE_CHESTPLATE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(KYANITE_CHESTPLATE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder KYKINITE_LEGGINGS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder KYANITE_LEGGINGS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_LEGGINGS))
+                    .with(ItemEntry.builder(Items.KYANITE_LEGGINGS))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.02F).build());
-            insert(new LootTableInsert(KYKINITE_LEGGINGS, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(KYANITE_LEGGINGS, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder KYKINITE_BOOTS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder KYANITE_BOOTS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_BOOTS))
+                    .with(ItemEntry.builder(Items.KYANITE_BOOTS))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.02F).build());
-            insert(new LootTableInsert(KYKINITE_BOOTS, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(KYANITE_BOOTS, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder KYKINITE_SWORD = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder KYANITE_SWORD = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_SWORD))
+                    .with(ItemEntry.builder(Items.KYANITE_SWORD))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.02F).build());
-            insert(new LootTableInsert(KYKINITE_SWORD, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(KYANITE_SWORD, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder KYKINITE_PICKAXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder KYANITE_PICKAXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_PICKAXE))
+                    .with(ItemEntry.builder(Items.KYANITE_PICKAXE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.02F).build());
-            insert(new LootTableInsert(KYKINITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(KYANITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder KYKINITE_AXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder KYANITE_AXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_AXE))
+                    .with(ItemEntry.builder(Items.KYANITE_AXE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.02F).build());
-            insert(new LootTableInsert(KYKINITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(KYANITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder KYANITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_SHOVEL))
+                    .with(ItemEntry.builder(Items.KYANITE_SHOVEL))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.02F).build());
-            insert(new LootTableInsert(KYKINITE_SHOVEL, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(KYANITE_SHOVEL, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder KYKINITE_HOE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder KYANITE_HOE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_HOE))
+                    .with(ItemEntry.builder(Items.KYANITE_HOE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.02F).build());
-            insert(new LootTableInsert(KYKINITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(KYANITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            // Golden Kykinite Armor and Tools
+            // Golden Kyanite Armor and Tools
 
-            FabricLootPoolBuilder GOLD_KYKINITE_HELMET = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder GOLD_KYANITE_HELMET = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.GOLD_KYKINITE_HELMET))
+                    .with(ItemEntry.builder(Items.GOLD_KYANITE_HELMET))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(GOLD_KYKINITE_HELMET, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(GOLD_KYANITE_HELMET, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder GOLD_KYKINITE_CHESTPLATE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder GOLD_KYANITE_CHESTPLATE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.GOLD_KYKINITE_CHESTPLATE))
+                    .with(ItemEntry.builder(Items.GOLD_KYANITE_CHESTPLATE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(GOLD_KYKINITE_CHESTPLATE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(GOLD_KYANITE_CHESTPLATE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder GOLD_KYKINITE_LEGGINGS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder GOLD_KYANITE_LEGGINGS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.GOLD_KYKINITE_LEGGINGS))
+                    .with(ItemEntry.builder(Items.GOLD_KYANITE_LEGGINGS))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(GOLD_KYKINITE_LEGGINGS, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(GOLD_KYANITE_LEGGINGS, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder GOLD_KYKINITE_BOOTS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder GOLD_KYANITE_BOOTS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.GOLD_KYKINITE_BOOTS))
+                    .with(ItemEntry.builder(Items.GOLD_KYANITE_BOOTS))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(GOLD_KYKINITE_BOOTS, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(GOLD_KYANITE_BOOTS, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder GOLD_KYKINITE_SWORD = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder GOLD_KYANITE_SWORD = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.GOLD_KYKINITE_SWORD))
+                    .with(ItemEntry.builder(Items.GOLD_KYANITE_SWORD))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(GOLD_KYKINITE_SWORD, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(GOLD_KYANITE_SWORD, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder GOLD_KYKINITE_PICKAXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder GOLD_KYANITE_PICKAXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.GOLD_KYKINITE_PICKAXE))
+                    .with(ItemEntry.builder(Items.GOLD_KYANITE_PICKAXE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(GOLD_KYKINITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(GOLD_KYANITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder GOLD_KYKINITE_AXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder GOLD_KYANITE_AXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.GOLD_KYKINITE_AXE))
+                    .with(ItemEntry.builder(Items.GOLD_KYANITE_AXE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(GOLD_KYKINITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(GOLD_KYANITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder GOLD_KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder GOLD_KYANITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.GOLD_KYKINITE_SHOVEL))
+                    .with(ItemEntry.builder(Items.GOLD_KYANITE_SHOVEL))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(GOLD_KYKINITE_SHOVEL, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(GOLD_KYANITE_SHOVEL, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder GOLD_KYKINITE_HOE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder GOLD_KYANITE_HOE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.GOLD_KYKINITE_HOE))
+                    .with(ItemEntry.builder(Items.GOLD_KYANITE_HOE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(GOLD_KYKINITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(GOLD_KYANITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            // Iron Kykinite Armor and Tools
+            // Iron Kyanite Armor and Tools
 
-            FabricLootPoolBuilder IRON_KYKINITE_HELMET = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder IRON_KYANITE_HELMET = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.IRON_KYKINITE_HELMET))
+                    .with(ItemEntry.builder(Items.IRON_KYANITE_HELMET))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(IRON_KYKINITE_HELMET, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(IRON_KYANITE_HELMET, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder IRON_KYKINITE_CHESTPLATE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder IRON_KYANITE_CHESTPLATE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.IRON_KYKINITE_CHESTPLATE))
+                    .with(ItemEntry.builder(Items.IRON_KYANITE_CHESTPLATE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(IRON_KYKINITE_CHESTPLATE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(IRON_KYANITE_CHESTPLATE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder IRON_KYKINITE_LEGGINGS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder IRON_KYANITE_LEGGINGS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.IRON_KYKINITE_LEGGINGS))
+                    .with(ItemEntry.builder(Items.IRON_KYANITE_LEGGINGS))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(IRON_KYKINITE_LEGGINGS, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(IRON_KYANITE_LEGGINGS, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder IRON_KYKINITE_BOOTS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder IRON_KYANITE_BOOTS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.IRON_KYKINITE_BOOTS))
+                    .with(ItemEntry.builder(Items.IRON_KYANITE_BOOTS))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(IRON_KYKINITE_BOOTS, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(IRON_KYANITE_BOOTS, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder IRON_KYKINITE_SWORD = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder IRON_KYANITE_SWORD = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.IRON_KYKINITE_SWORD))
+                    .with(ItemEntry.builder(Items.IRON_KYANITE_SWORD))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(IRON_KYKINITE_SWORD, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(IRON_KYANITE_SWORD, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder IRON_KYKINITE_PICKAXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder IRON_KYANITE_PICKAXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.IRON_KYKINITE_PICKAXE))
+                    .with(ItemEntry.builder(Items.IRON_KYANITE_PICKAXE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(IRON_KYKINITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(IRON_KYANITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder IRON_KYKINITE_AXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder IRON_KYANITE_AXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.IRON_KYKINITE_AXE))
+                    .with(ItemEntry.builder(Items.IRON_KYANITE_AXE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(IRON_KYKINITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(IRON_KYANITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder IRON_KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder IRON_KYANITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.IRON_KYKINITE_SHOVEL))
+                    .with(ItemEntry.builder(Items.IRON_KYANITE_SHOVEL))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(IRON_KYKINITE_SHOVEL, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(IRON_KYANITE_SHOVEL, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder IRON_KYKINITE_HOE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder IRON_KYANITE_HOE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.IRON_KYKINITE_HOE))
+                    .with(ItemEntry.builder(Items.IRON_KYANITE_HOE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(IRON_KYKINITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(IRON_KYANITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            // Diamond Kykinite Armor and Tools
+            // Diamond Kyanite Armor and Tools
 
-            FabricLootPoolBuilder DIAMOND_KYKINITE_HELMET = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder DIAMOND_KYANITE_HELMET = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.DIAMOND_KYKINITE_HELMET))
+                    .with(ItemEntry.builder(Items.DIAMOND_KYANITE_HELMET))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(DIAMOND_KYKINITE_HELMET, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(DIAMOND_KYANITE_HELMET, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder DIAMOND_KYKINITE_CHESTPLATE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder DIAMOND_KYANITE_CHESTPLATE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.DIAMOND_KYKINITE_CHESTPLATE))
+                    .with(ItemEntry.builder(Items.DIAMOND_KYANITE_CHESTPLATE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(DIAMOND_KYKINITE_CHESTPLATE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(DIAMOND_KYANITE_CHESTPLATE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder DIAMOND_KYKINITE_LEGGINGS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder DIAMOND_KYANITE_LEGGINGS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.DIAMOND_KYKINITE_LEGGINGS))
+                    .with(ItemEntry.builder(Items.DIAMOND_KYANITE_LEGGINGS))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(DIAMOND_KYKINITE_LEGGINGS, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(DIAMOND_KYANITE_LEGGINGS, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder DIAMOND_KYKINITE_BOOTS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder DIAMOND_KYANITE_BOOTS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.DIAMOND_KYKINITE_BOOTS))
+                    .with(ItemEntry.builder(Items.DIAMOND_KYANITE_BOOTS))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(DIAMOND_KYKINITE_BOOTS, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(DIAMOND_KYANITE_BOOTS, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder DIAMOND_KYKINITE_SWORD = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder DIAMOND_KYANITE_SWORD = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.DIAMOND_KYKINITE_SWORD))
+                    .with(ItemEntry.builder(Items.DIAMOND_KYANITE_SWORD))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(DIAMOND_KYKINITE_SWORD, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(DIAMOND_KYANITE_SWORD, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder DIAMOND_KYKINITE_PICKAXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder DIAMOND_KYANITE_PICKAXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.DIAMOND_KYKINITE_PICKAXE))
+                    .with(ItemEntry.builder(Items.DIAMOND_KYANITE_PICKAXE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(DIAMOND_KYKINITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(DIAMOND_KYANITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder DIAMOND_KYKINITE_AXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder DIAMOND_KYANITE_AXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.DIAMOND_KYKINITE_AXE))
+                    .with(ItemEntry.builder(Items.DIAMOND_KYANITE_AXE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(DIAMOND_KYKINITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(DIAMOND_KYANITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder DIAMOND_KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder DIAMOND_KYANITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.DIAMOND_KYKINITE_SHOVEL))
+                    .with(ItemEntry.builder(Items.DIAMOND_KYANITE_SHOVEL))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(DIAMOND_KYKINITE_SHOVEL, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(DIAMOND_KYANITE_SHOVEL, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder DIAMOND_KYKINITE_HOE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder DIAMOND_KYANITE_HOE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.DIAMOND_KYKINITE_HOE))
+                    .with(ItemEntry.builder(Items.DIAMOND_KYANITE_HOE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(DIAMOND_KYKINITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(DIAMOND_KYANITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            // Quartz Kykinite Armor and Tools
+            // Quartz Kyanite Armor and Tools
 
-            FabricLootPoolBuilder QUARTZ_KYKINITE_HELMET = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder QUARTZ_KYANITE_HELMET = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.QUARTZ_KYKINITE_HELMET))
+                    .with(ItemEntry.builder(Items.QUARTZ_KYANITE_HELMET))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(QUARTZ_KYKINITE_HELMET, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(QUARTZ_KYANITE_HELMET, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder QUARTZ_KYKINITE_CHESTPLATE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder QUARTZ_KYANITE_CHESTPLATE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.QUARTZ_KYKINITE_CHESTPLATE))
+                    .with(ItemEntry.builder(Items.QUARTZ_KYANITE_CHESTPLATE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(QUARTZ_KYKINITE_CHESTPLATE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(QUARTZ_KYANITE_CHESTPLATE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder QUARTZ_KYKINITE_LEGGINGS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder QUARTZ_KYANITE_LEGGINGS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.QUARTZ_KYKINITE_LEGGINGS))
+                    .with(ItemEntry.builder(Items.QUARTZ_KYANITE_LEGGINGS))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(QUARTZ_KYKINITE_LEGGINGS, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(QUARTZ_KYANITE_LEGGINGS, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder QUARTZ_KYKINITE_BOOTS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder QUARTZ_KYANITE_BOOTS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.QUARTZ_KYKINITE_BOOTS))
+                    .with(ItemEntry.builder(Items.QUARTZ_KYANITE_BOOTS))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(QUARTZ_KYKINITE_BOOTS, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(QUARTZ_KYANITE_BOOTS, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder QUARTZ_KYKINITE_SWORD = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder QUARTZ_KYANITE_SWORD = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.QUARTZ_KYKINITE_SWORD))
+                    .with(ItemEntry.builder(Items.QUARTZ_KYANITE_SWORD))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(QUARTZ_KYKINITE_SWORD, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(QUARTZ_KYANITE_SWORD, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder QUARTZ_KYKINITE_PICKAXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder QUARTZ_KYANITE_PICKAXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.QUARTZ_KYKINITE_PICKAXE))
+                    .with(ItemEntry.builder(Items.QUARTZ_KYANITE_PICKAXE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(QUARTZ_KYKINITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(QUARTZ_KYANITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder QUARTZ_KYKINITE_AXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder QUARTZ_KYANITE_AXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.QUARTZ_KYKINITE_AXE))
+                    .with(ItemEntry.builder(Items.QUARTZ_KYANITE_AXE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(QUARTZ_KYKINITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(QUARTZ_KYANITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder QUARTZ_KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder QUARTZ_KYANITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.QUARTZ_KYKINITE_SHOVEL))
+                    .with(ItemEntry.builder(Items.QUARTZ_KYANITE_SHOVEL))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(QUARTZ_KYKINITE_SHOVEL, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(QUARTZ_KYANITE_SHOVEL, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder QUARTZ_KYKINITE_HOE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder QUARTZ_KYANITE_HOE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.QUARTZ_KYKINITE_HOE))
+                    .with(ItemEntry.builder(Items.QUARTZ_KYANITE_HOE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(QUARTZ_KYKINITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(QUARTZ_KYANITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            // Powered Quartz Kykinite Armor and Tools
+            // Powered Quartz Kyanite Armor and Tools
 
-            FabricLootPoolBuilder POWERED_QUARTZ_KYKINITE_HELMET = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder POWERED_QUARTZ_KYANITE_HELMET = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYKINITE_HELMET))
+                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYANITE_HELMET))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.001F).build());
-            insert(new LootTableInsert(POWERED_QUARTZ_KYKINITE_HELMET, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(POWERED_QUARTZ_KYANITE_HELMET, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder POWERED_QUARTZ_KYKINITE_CHESTPLATE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder POWERED_QUARTZ_KYANITE_CHESTPLATE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYKINITE_CHESTPLATE))
+                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYANITE_CHESTPLATE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.001F).build());
-            insert(new LootTableInsert(POWERED_QUARTZ_KYKINITE_CHESTPLATE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(POWERED_QUARTZ_KYANITE_CHESTPLATE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder POWERED_QUARTZ_KYKINITE_LEGGINGS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder POWERED_QUARTZ_KYANITE_LEGGINGS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYKINITE_LEGGINGS))
+                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYANITE_LEGGINGS))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.001F).build());
-            insert(new LootTableInsert(POWERED_QUARTZ_KYKINITE_LEGGINGS, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(POWERED_QUARTZ_KYANITE_LEGGINGS, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder POWERED_QUARTZ_KYKINITE_BOOTS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder POWERED_QUARTZ_KYANITE_BOOTS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYKINITE_BOOTS))
+                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYANITE_BOOTS))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.001F).build());
-            insert(new LootTableInsert(POWERED_QUARTZ_KYKINITE_BOOTS, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(POWERED_QUARTZ_KYANITE_BOOTS, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder POWERED_QUARTZ_KYKINITE_SWORD = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder POWERED_QUARTZ_KYANITE_SWORD = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYKINITE_SWORD))
+                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYANITE_SWORD))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.001F).build());
-            insert(new LootTableInsert(POWERED_QUARTZ_KYKINITE_SWORD, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(POWERED_QUARTZ_KYANITE_SWORD, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder POWERED_QUARTZ_KYKINITE_PICKAXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder POWERED_QUARTZ_KYANITE_PICKAXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYKINITE_PICKAXE))
+                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYANITE_PICKAXE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.001f).build());
-            insert(new LootTableInsert(POWERED_QUARTZ_KYKINITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(POWERED_QUARTZ_KYANITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder POWERED_QUARTZ_KYKINITE_AXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder POWERED_QUARTZ_KYANITE_AXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYKINITE_AXE))
+                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYANITE_AXE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.001F).build());
-            insert(new LootTableInsert(POWERED_QUARTZ_KYKINITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(POWERED_QUARTZ_KYANITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder POWERED_QUARTZ_KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder POWERED_QUARTZ_KYANITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYKINITE_SHOVEL))
+                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYANITE_SHOVEL))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.001F).build());
-            insert(new LootTableInsert(POWERED_QUARTZ_KYKINITE_SHOVEL, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(POWERED_QUARTZ_KYANITE_SHOVEL, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder POWERED_QUARTZ_KYKINITE_HOE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder POWERED_QUARTZ_KYANITE_HOE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYKINITE_HOE))
+                    .with(ItemEntry.builder(Items.POWERED_QUARTZ_KYANITE_HOE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.001F).build());
-            insert(new LootTableInsert(POWERED_QUARTZ_KYKINITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(POWERED_QUARTZ_KYANITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            // Netherite Kykinite Armor and Tools
+            // Netherite Kyanite Armor and Tools
 
-            FabricLootPoolBuilder NETHERITE_KYKINITE_HELMET = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder NETHERITE_KYANITE_HELMET = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.NETHERITE_KYKINITE_HELMET))
+                    .with(ItemEntry.builder(Items.NETHERITE_KYANITE_HELMET))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.00025F).build());
-            insert(new LootTableInsert(NETHERITE_KYKINITE_HELMET, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(NETHERITE_KYANITE_HELMET, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder NETHERITE_KYKINITE_CHESTPLATE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder NETHERITE_KYANITE_CHESTPLATE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.NETHERITE_KYKINITE_CHESTPLATE))
+                    .with(ItemEntry.builder(Items.NETHERITE_KYANITE_CHESTPLATE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.00025F).build());
-            insert(new LootTableInsert(NETHERITE_KYKINITE_CHESTPLATE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(NETHERITE_KYANITE_CHESTPLATE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder NETHERITE_KYKINITE_LEGGINGS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder NETHERITE_KYANITE_LEGGINGS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.NETHERITE_KYKINITE_LEGGINGS))
+                    .with(ItemEntry.builder(Items.NETHERITE_KYANITE_LEGGINGS))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.00025F).build());
-            insert(new LootTableInsert(NETHERITE_KYKINITE_LEGGINGS, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(NETHERITE_KYANITE_LEGGINGS, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder NETHERITE_KYKINITE_BOOTS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder NETHERITE_KYANITE_BOOTS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.NETHERITE_KYKINITE_BOOTS))
+                    .with(ItemEntry.builder(Items.NETHERITE_KYANITE_BOOTS))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.00025F).build());
-            insert(new LootTableInsert(NETHERITE_KYKINITE_BOOTS, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(NETHERITE_KYANITE_BOOTS, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder NETHERITE_KYKINITE_SWORD = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder NETHERITE_KYANITE_SWORD = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.NETHERITE_KYKINITE_SWORD))
+                    .with(ItemEntry.builder(Items.NETHERITE_KYANITE_SWORD))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.00025F).build());
-            insert(new LootTableInsert(NETHERITE_KYKINITE_SWORD, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(NETHERITE_KYANITE_SWORD, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder NETHERITE_KYKINITE_PICKAXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder NETHERITE_KYANITE_PICKAXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.NETHERITE_KYKINITE_PICKAXE))
+                    .with(ItemEntry.builder(Items.NETHERITE_KYANITE_PICKAXE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.00025F).build());
-            insert(new LootTableInsert(NETHERITE_KYKINITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(NETHERITE_KYANITE_PICKAXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder NETHERITE_KYKINITE_AXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder NETHERITE_KYANITE_AXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.NETHERITE_KYKINITE_AXE))
+                    .with(ItemEntry.builder(Items.NETHERITE_KYANITE_AXE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.00025F).build());
-            insert(new LootTableInsert(NETHERITE_KYKINITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(NETHERITE_KYANITE_AXE, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder NETHERITE_KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder NETHERITE_KYANITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.NETHERITE_KYKINITE_SHOVEL))
+                    .with(ItemEntry.builder(Items.NETHERITE_KYANITE_SHOVEL))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.00025F).build());
-            insert(new LootTableInsert(NETHERITE_KYKINITE_SHOVEL, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(NETHERITE_KYANITE_SHOVEL, new Identifier("minecraft", "chests/end_city_treasure")));
 
-            FabricLootPoolBuilder NETHERITE_KYKINITE_HOE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder NETHERITE_KYANITE_HOE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.NETHERITE_KYKINITE_HOE))
+                    .with(ItemEntry.builder(Items.NETHERITE_KYANITE_HOE))
                     .withFunction(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20.0f, 39.0f)).allowTreasureEnchantments().build())
                     .withCondition(RandomChanceLootCondition.builder(0.00025F).build());
-            insert(new LootTableInsert(NETHERITE_KYKINITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(NETHERITE_KYANITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
 
             // Stronghold loot
 
-            FabricLootPoolBuilder STRONGHOLD_KYKINITE_HELMET = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder STRONGHOLD_KYANITE_HELMET = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_HELMET))
+                    .with(ItemEntry.builder(Items.KYANITE_HELMET))
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(STRONGHOLD_KYKINITE_HELMET, new Identifier("minecraft", "chests/stronghold_corridor")));
+            insert(new LootTableInsert(STRONGHOLD_KYANITE_HELMET, new Identifier("minecraft", "chests/stronghold_corridor")));
 
-            FabricLootPoolBuilder STRONGHOLD_KYKINITE_CHESTPLATE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder STRONGHOLD_KYANITE_CHESTPLATE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_CHESTPLATE))
+                    .with(ItemEntry.builder(Items.KYANITE_CHESTPLATE))
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(STRONGHOLD_KYKINITE_CHESTPLATE, new Identifier("minecraft", "chests/stronghold_corridor")));
+            insert(new LootTableInsert(STRONGHOLD_KYANITE_CHESTPLATE, new Identifier("minecraft", "chests/stronghold_corridor")));
 
-            FabricLootPoolBuilder STRONGHOLD_KYKINITE_LEGGINGS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder STRONGHOLD_KYANITE_LEGGINGS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_LEGGINGS))
+                    .with(ItemEntry.builder(Items.KYANITE_LEGGINGS))
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(STRONGHOLD_KYKINITE_LEGGINGS, new Identifier("minecraft", "chests/stronghold_corridor")));
+            insert(new LootTableInsert(STRONGHOLD_KYANITE_LEGGINGS, new Identifier("minecraft", "chests/stronghold_corridor")));
 
-            FabricLootPoolBuilder STRONGHOLD_KYKINITE_BOOTS = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder STRONGHOLD_KYANITE_BOOTS = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_BOOTS))
+                    .with(ItemEntry.builder(Items.KYANITE_BOOTS))
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(STRONGHOLD_KYKINITE_BOOTS, new Identifier("minecraft", "chests/stronghold_corridor")));
+            insert(new LootTableInsert(STRONGHOLD_KYANITE_BOOTS, new Identifier("minecraft", "chests/stronghold_corridor")));
 
-            FabricLootPoolBuilder STRONGHOLD_KYKINITE_SWORD = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder STRONGHOLD_KYANITE_SWORD = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_SWORD))
+                    .with(ItemEntry.builder(Items.KYANITE_SWORD))
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(STRONGHOLD_KYKINITE_SWORD, new Identifier("minecraft", "chests/stronghold_corridor")));
+            insert(new LootTableInsert(STRONGHOLD_KYANITE_SWORD, new Identifier("minecraft", "chests/stronghold_corridor")));
 
-            FabricLootPoolBuilder STRONGHOLD_KYKINITE_PICKAXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder STRONGHOLD_KYANITE_PICKAXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_PICKAXE))
+                    .with(ItemEntry.builder(Items.KYANITE_PICKAXE))
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(STRONGHOLD_KYKINITE_PICKAXE, new Identifier("minecraft", "chests/stronghold_corridor")));
+            insert(new LootTableInsert(STRONGHOLD_KYANITE_PICKAXE, new Identifier("minecraft", "chests/stronghold_corridor")));
 
-            FabricLootPoolBuilder STRONGHOLD_KYKINITE_AXE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder STRONGHOLD_KYANITE_AXE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_AXE))
+                    .with(ItemEntry.builder(Items.KYANITE_AXE))
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(STRONGHOLD_KYKINITE_AXE, new Identifier("minecraft", "chests/stronghold_corridor")));
+            insert(new LootTableInsert(STRONGHOLD_KYANITE_AXE, new Identifier("minecraft", "chests/stronghold_corridor")));
 
-            FabricLootPoolBuilder STRONGHOLD_KYKINITE_SHOVEL = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder STRONGHOLD_KYANITE_SHOVEL = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_SHOVEL))
+                    .with(ItemEntry.builder(Items.KYANITE_SHOVEL))
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(STRONGHOLD_KYKINITE_SHOVEL, new Identifier("minecraft", "chests/stronghold_corridor")));
+            insert(new LootTableInsert(STRONGHOLD_KYANITE_SHOVEL, new Identifier("minecraft", "chests/stronghold_corridor")));
 
-            FabricLootPoolBuilder STRONGHOLD_KYKINITE_HOE = FabricLootPoolBuilder.builder()
+            FabricLootPoolBuilder STRONGHOLD_KYANITE_HOE = FabricLootPoolBuilder.builder()
                     .rolls(ConstantLootNumberProvider.create(1f))
-                    .with(ItemEntry.builder(Items.KYKINITE_HOE))
+                    .with(ItemEntry.builder(Items.KYANITE_HOE))
                     .withCondition(RandomChanceLootCondition.builder(0.005F).build());
-            insert(new LootTableInsert(STRONGHOLD_KYKINITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
+            insert(new LootTableInsert(STRONGHOLD_KYANITE_HOE, new Identifier("minecraft", "chests/end_city_treasure")));
 
             LootTableLoadingCallback.EVENT.register(((resourceManager, lootManager, identifier, supplier, lootTableSetter) -> INSERTS.forEach(i -> {
                         if (ArrayUtils.contains(i.tables, identifier)) {

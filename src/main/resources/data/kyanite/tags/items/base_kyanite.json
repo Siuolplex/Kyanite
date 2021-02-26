@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"#kyanite:base_kyanite_armor",
+		"#kyanite:base_kyanite_tools",
+		"kyanite:kyanite",
+		"kyanite:kyanite_shard",
+		"kyanite:refined_kyanite",
+		"#kyanite:kyanite_ores",
+		"#kyanite:kyanite_blocks"
+	]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kyanite:quartz_kyanite_hoe"
+    },
+    "addition": {
+        "item": "kyanite:powered_quartz_ascension_kyanite"
+    },
+    "result": {
+        "item": "kyanite:powered_quartz_kyanite_hoe"
+    }
+}

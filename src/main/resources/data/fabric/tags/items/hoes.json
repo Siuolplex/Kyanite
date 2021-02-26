@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "kykinite:kykinite_hoe",
-    "kykinite:golden_kykinite_hoe",
-    "kykinite:iron_kykinite_hoe",
-    "kykinite:quartz_kykinite_hoe",
-    "kykinite:powered_quartz_kykinite_hoe",
-    "kykinite:diamond_kykinite_hoe",
-    "kykinite:netherite_kykinite_hoe"
+    "kyanite:kyanite_hoe",
+    "kyanite:golden_kyanite_hoe",
+    "kyanite:iron_kyanite_hoe",
+    "kyanite:quartz_kyanite_hoe",
+    "kyanite:powered_quartz_kyanite_hoe",
+    "kyanite:diamond_kyanite_hoe",
+    "kyanite:netherite_kyanite_hoe"
   ]
 }

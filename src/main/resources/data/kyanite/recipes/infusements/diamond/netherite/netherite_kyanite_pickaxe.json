@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kyanite:diamond_kyanite_pickaxe"
+    },
+    "addition": {
+        "item": "kyanite:netherite_ascension_kyanite"
+    },
+    "result": {
+        "item": "kyanite:netherite_kyanite_pickaxe"
+    }
+}

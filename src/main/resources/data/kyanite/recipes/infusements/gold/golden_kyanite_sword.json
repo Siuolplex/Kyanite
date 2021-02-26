@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kyanite:kyanite_sword"
+    },
+    "addition": {
+        "item": "kyanite:golden_ascension_kyanite"
+    },
+    "result": {
+        "item": "kyanite:golden_kyanite_sword"
+    }
+}

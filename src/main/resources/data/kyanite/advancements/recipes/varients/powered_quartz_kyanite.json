@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kyanite:powered_quartz_ascension_kyanite",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_helmet",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_chestplate",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_leggings",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_boots",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_sword",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_axe",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_pickaxe",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_shovel",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_hoe",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_helmet_revert",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_chestplate_revert",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_leggings_revert",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_boots_revert",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_sword_revert",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_axe_revert",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_pickaxe_revert",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_shovel_revert",
+      "kyanite:infusements/quartz/redstone/powered_quartz_kyanite_hoe_revert"
+    ]
+  },
+  "criteria": {
+    "has_kyanite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kyanite:kyanite"
+          }
+        ]
+      }
+    },
+      "has_quartz_ascended": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "kyanite:quartz_ascension_kyanite"
+            }
+          ]
+        }
+      }
+    },
+  "requirements": [ ["has_kyanite"], ["has_quartz_ascended"] ]
+}

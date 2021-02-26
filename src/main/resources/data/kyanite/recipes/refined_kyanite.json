@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "kyanite:kyanite"
+    }
+  },
+  "result": {
+    "item": "kyanite:refined_kyanite"
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "kykinite:kykinite_ore"
-  },
-  "result": "kykinite:kykinite",
-  "experience": 1.0,
-  "cookingtime": 200
-}

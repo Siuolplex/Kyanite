@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kyanite:iron_kyanite_boots"
+    },
+    "addition": {
+        "item": "kyanite:reversion_telaite"
+    },
+    "result": {
+        "item": "kyanite:kyanite_boots"
+    }
+}

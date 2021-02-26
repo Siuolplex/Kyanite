@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kyanite:golden_kyanite_chestplate"
+    },
+    "addition": {
+        "item": "kyanite:reversion_telaite"
+    },
+    "result": {
+        "item": "kyanite:kyanite_chestplate"
+    }
+}

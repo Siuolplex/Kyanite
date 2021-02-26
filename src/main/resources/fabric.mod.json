@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "id": "kykinite",
+  "id": "kyanite",
   "version": "1.2.1",
 
-  "name": "Kykinite",
-  "description": "Kykinite is a mod about augmenting a new ore found only in the end.",
+  "name": "Kyanite",
+  "description": "Kyanite is a mod about augmenting a new ore found only in the end.",
   "authors": [
     "Siuol"
   ],
 
   "license": "MIT",
   "icon": "assets/icon.png",
-  "sources": "https://github.com/Siuolthepic/Kykinite",
-  "issues": "https://github.com/Siuolthepic/Kykinite/issues",
-  "homepage": "https://www.curseforge.com/minecraft/mc-mods/kykinite",
+  "sources": "https://github.com/Siuolthepic/Kyanite",
+  "issues": "https://github.com/Siuolthepic/Kyanite/issues",
+  "homepage": "https://www.curseforge.com/minecraft/mc-mods/kyanite",
 
   "environment": "*",
   "entrypoints": {

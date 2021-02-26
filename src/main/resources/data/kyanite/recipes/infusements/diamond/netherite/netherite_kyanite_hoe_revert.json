@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "kyanite:netherite_kyanite_hoe"
+    },
+    "addition": {
+        "item": "kyanite:reversion_telaite"
+    },
+    "result": {
+        "item": "kyanite:kyanite_hoe"
+    }
+}

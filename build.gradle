@@ -61,6 +61,6 @@ java {
 
 jar {
 	from("LICENSE") {
-		rename { "${it}_Kykinite"}
+		rename { "${it}_Kyanite"}
 	}
 }

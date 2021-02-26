@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "kykinite:kykinite_sword",
-    "kykinite:golden_kykinite_sword",
-    "kykinite:iron_kykinite_sword",
-    "kykinite:quartz_kykinite_sword",
-    "kykinite:powered_quartz_kykinite_sword",
-    "kykinite:diamond_kykinite_sword",
-    "kykinite:netherite_kykinite_sword"
+    "kyanite:kyanite_sword",
+    "kyanite:golden_kyanite_sword",
+    "kyanite:iron_kyanite_sword",
+    "kyanite:quartz_kyanite_sword",
+    "kyanite:powered_quartz_kyanite_sword",
+    "kyanite:diamond_kyanite_sword",
+    "kyanite:netherite_kyanite_sword"
   ]
 }

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "kyanite:telaite_block"
+    },
+    "title": {"translate": "advancements.kyanite.end.telaiteget.title"},
+    "description": {"translate": "advancements.kyanite.end.telaiteget.description"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "kyanite:telaite",
+      "kyanite:reversion_telaite",
+      "kyanite:telaite_shard",
+      "kyanite:telaite_block",
+      "kyanite:telaite_from_shard",
+      "kyanite:telaite_from_blasting",
+      "kyanite:telaite_from_smelting",
+      "kyanite:telaite_from_block"
+    ]
+  },
+  "parent": "minecraft:end/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "kyanite:telaite"
+          }
+        ]
+      }
+    }
+  }
+}

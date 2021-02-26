@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "kyanite:telaite_ore"
+  },
+  "result": "kyanite:telaite",
+  "experience": 1.0,
+  "cookingtime": 100
+}
