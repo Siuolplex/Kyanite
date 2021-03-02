@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "kyanite:iron_kyanite_helmet",
+    "kyanite:iron_kyanite_chestplate",
+    "kyanite:iron_kyanite_leggings",
+    "kyanite:iron_kyanite_boots"
+  ]
+}

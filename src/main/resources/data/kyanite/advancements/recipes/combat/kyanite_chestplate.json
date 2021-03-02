@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kyanite:kyanite_chestplate"
+    ]
+  },
+  "criteria": {
+    "has_kyanite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kyanite:kyanite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kyanite:kyanite_chestplate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_kyanite",
+      "has_the_recipe"
+    ]
+  ]
+}

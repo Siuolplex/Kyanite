@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kyanite:netherite_ascension_kyanite",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_helmet",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_chestplate",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_leggings",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_boots",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_sword",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_axe",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_pickaxe",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_shovel",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_hoe",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_helmet_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_chestplate_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_leggings_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_boots_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_sword_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_axe_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_pickaxe_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_shovel_revert",
+      "kyanite:infusements/diamond/netherite/netherite_kyanite_hoe_revert"
+    ]
+  },
+  "criteria":{
+    "has_diamond_kyanite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kyanite:diamond_ascension_kyanite"
+          }
+        ]
+      }
+    },
+      "has_netherite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:netherite_ingot"
+            }
+          ]
+        }
+      }
+    },
+  "requirements": [ ["has_diamond_kyanite"], ["has_netherite"] ]
+}

@@ -1,0 +1,56 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_kyanite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "kyanite:base_kyanite"
+          }
+        ]
+      }
+    },
+    "has_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_diamond"
+    ],
+    [
+      "has_kyanite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "kyanite:diamond_ascension_kyanite",
+      "kyanite:infusements/diamond/diamond_kyanite_helmet",
+      "kyanite:infusements/diamond/diamond_kyanite_chestplate",
+      "kyanite:infusements/diamond/diamond_kyanite_leggings",
+      "kyanite:infusements/diamond/diamond_kyanite_boots",
+      "kyanite:infusements/diamond/diamond_kyanite_sword",
+      "kyanite:infusements/diamond/diamond_kyanite_axe",
+      "kyanite:infusements/diamond/diamond_kyanite_pickaxe",
+      "kyanite:infusements/diamond/diamond_kyanite_shovel",
+      "kyanite:infusements/diamond/diamond_kyanite_hoe",
+      "kyanite:infusements/diamond/diamond_kyanite_helmet_revert",
+      "kyanite:infusements/diamond/diamond_kyanite_chestplate_revert",
+      "kyanite:infusements/diamond/diamond_kyanite_leggings_revert",
+      "kyanite:infusements/diamond/diamond_kyanite_boots_revert",
+      "kyanite:infusements/diamond/diamond_kyanite_sword_revert",
+      "kyanite:infusements/diamond/diamond_kyanite_axe_revert",
+      "kyanite:infusements/diamond/diamond_kyanite_pickaxe_revert",
+      "kyanite:infusements/diamond/diamond_kyanite_shovel_revert",
+      "kyanite:infusements/diamond/diamond_kyanite_hoe_revert"
+    ]
+  }
+}
