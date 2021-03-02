@@ -1,11 +1,11 @@
-Kykinite
+Kyanite
 ---
-Kykinite is a mod about augmenting armor through vanilla materials and the alike.
+Kyanite is a mod about augmenting armor through vanilla materials and the alike.
 
-- It features a new ore found exclusively in the End, called Kykinite.
-Kykinite, in its base form, can be used to make Kykinite armor and Refined Kykinite
-- Refined Kykinite can be combined with Vanilla Materials to create "Ascension Kykinite" of that material's type.
-- The Ascension Kykinite is then combined with the Kykinite armor to boost the Kykinite Armor's power.
+- It features a new ore found exclusively in the End, called Kyanite.
+Kyanite, in its base form, can be used to make Kyanite armor and Refined Kyanite
+- Refined Kyanite can be combined with Vanilla Materials to create "Ascension Kyanite" of that material's type.
+- The Ascension Kyanite is then combined with the Kykinite armor to boost the Kyanite gear's power.
 - Currently, Iron, Diamond, Netherite, Gold, Quartz, and "Powered Quartz" are supported
 <img src="https://media.discordapp.net/attachments/423433365136343040/780201661703782440/2020-11-22_16.41.08.png?width=1920&amp;height=1080" alt="A preview of the armor as of 1.0.0"/></p>
 ---
