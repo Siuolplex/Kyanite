@@ -12,12 +12,9 @@ public class Blocks {
     public static final Block TELAITE_ORE = register("telaite_ore", new KyaniteOreBlock(FabricBlockSettings.of(Material.STONE).hardness(4.0f).breakByTool(FabricToolTags.PICKAXES, 3).requiresTool()));
     public static final Block TELAITE_BLOCK = register("telaite_block", new Block(FabricBlockSettings.of(Material.METAL).hardness(4.0f).breakByTool(FabricToolTags.PICKAXES, 3).requiresTool()));
 
-
     private static Block register(String name, Block block) {
         return Registry.register(Registry.BLOCK, new Identifier("kyanite", name), block);
     }
 
-    public static void init() {
-
-    }
+    public static void init() {}
 }

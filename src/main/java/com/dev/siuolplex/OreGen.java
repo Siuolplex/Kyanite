@@ -18,6 +18,8 @@ import net.minecraft.world.gen.feature.OreFeatureConfig;
 
 import static net.minecraft.world.gen.YOffset.aboveBottom;
 
+// Using Noaaan's work around for modded biome ore gen they did.
+// It was found in https://github.com/Noaaan/MythicMetals/tree/MASTER. Great job on the mod Noaan!
 
 public class OreGen {
     private static final ConfiguredFeature<?, ?> KYANITEOREGEN = Feature.ORE
@@ -42,12 +44,12 @@ public class OreGen {
     RegistryKey<ConfiguredFeature<?, ?>> kyaniteoregen = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN,
             new Identifier("kyanite", "kyaniteoregen"));
     Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, kyaniteoregen.getValue(), KYANITEOREGEN);
-    BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES, kyaniteoregen);
+    BiomeModifications.addFeature(BiomeSelectors.all(), GenerationStep.Feature.UNDERGROUND_ORES, kyaniteoregen);
 
     RegistryKey<ConfiguredFeature<?, ?>> telaiteoregen = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN,
             new Identifier("kyanite", "telaiteoregen"));
     Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, telaiteoregen.getValue(), TELAITEOREGEN);
-        BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES, telaiteoregen);
+        BiomeModifications.addFeature(BiomeSelectors.all(), GenerationStep.Feature.UNDERGROUND_ORES, telaiteoregen);
    }
 
 }

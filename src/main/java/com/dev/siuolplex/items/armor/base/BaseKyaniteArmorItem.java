@@ -54,7 +54,7 @@ public class BaseKyaniteArmorItem extends ArmorItem {
 
     public int getProtection() {return this.protection;}
 
-    public float method_26353() {return this.toughness;}
+    public float getToughness() {return this.toughness;}
 
     public float getMaxHealth() {
         return this.maxHealth;

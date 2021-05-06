@@ -18,6 +18,8 @@ import com.google.common.collect.Lists;
 
 public class LootTables {
     // Shoutouts to More Gems dev KWPUGH as I adapted some of their loot table code to fit my needs. :)
+    // Should of included this earlier, but its found at https://github.com/kwpugh/MoreGems
+
     private static final List<LootTableInsert> INSERTS = Lists.newArrayList();
 
     public static void init() {

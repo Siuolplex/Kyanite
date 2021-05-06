@@ -26,6 +26,7 @@ public class Items {
     public static final BaseKyaniteArmorMaterial DiamondKyaniteArmorMaterials = new DiamondKyaniteArmorMaterials();
     public static final BaseKyaniteArmorMaterial NetheriteKyaniteArmorMaterials = new NetheriteKyaniteArmorMaterials();
     public static final BaseIronKyaniteArmorMaterial IronKyaniteArmorMaterials = new IronKyaniteArmorMaterials();
+
     public static final BaseKyaniteToolMaterial KyaniteToolMaterial = new KyaniteToolMaterial();
     public static final BaseKyaniteToolMaterial GoldKyaniteToolMaterial = new GoldKyaniteToolMaterial();
     public static final BaseKyaniteToolMaterial IronKyaniteToolMaterial = new IronKyaniteToolMaterial();
@@ -136,11 +137,8 @@ public class Items {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier("kyanite", name), item);
         // Remember, the namespace is kyanite.
-
     }
 
     //Initialization method thingy.
-    public static void init() {
-
-    }
+    public static void init() {}
 }
